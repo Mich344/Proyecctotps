@@ -27,6 +27,8 @@
             ];
 
             $pdo  = new PDO($conexion, $this -> username, $this  -> pasword, $options);
+         
+                //Proceso para verificar si hay error de conexion.
 
 
             return $pdo;
