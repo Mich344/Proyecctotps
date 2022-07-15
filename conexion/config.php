@@ -33,20 +33,15 @@
 
             return $pdo;
 
-
-
+         
         } catch (Exception $e){
+         
             echo 'Error capturado' . $e -> getMessage();
+         
             exit;
         }
 
-
-
-
     }
-
-
-
 
  }
 
