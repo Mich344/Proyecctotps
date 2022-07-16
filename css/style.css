@@ -1585,20 +1585,20 @@ h4.panel-title a {
 .address-grid {
     background-color:rgba(0, 166, 214, 0.7);
     padding: 4em;
-    text-align: center;
+    
 }
 .address-info {
     background-color:rgba(0, 166, 214, 0.7);
     padding: 3em 4em;
-    text-align: left;
+    
 
 }
 .address-info.address-mdl {
     margin: 2em 0;
 }
 .contact iframe {
-    width: 100%;
-    min-height: 400px;
+    width: 200%;
+    min-height: 100px;
     border: none;
 }
 .address h4 {
