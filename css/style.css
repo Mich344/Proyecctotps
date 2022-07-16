@@ -1585,10 +1585,13 @@ h4.panel-title a {
 .address-grid {
     background-color:rgba(0, 166, 214, 0.7);
     padding: 4em;
+    text-align: center;
 }
 .address-info {
     background-color:rgba(0, 166, 214, 0.7);
     padding: 3em 4em;
+    text-align: left;
+    margin:30px 40px 20px;
 }
 .address-info.address-mdl {
     margin: 2em 0;
