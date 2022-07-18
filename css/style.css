@@ -1585,11 +1585,13 @@ h4.panel-title a {
 .address-grid {
     background-color:rgba(0, 166, 214, 0.7);
     padding: 4em;
+    
 }
 .address-info {
     background-color:rgba(0, 166, 214, 0.7);
     padding: 3em 4em;
-    text-align: left;
+    
+
 }
 .address-info.address-mdl {
     margin: 2em 0;
@@ -1795,7 +1797,7 @@ ul.qty li p {
 /*--faq--*/
 .faq-info a {
     padding: 1em 1.5em;
-    background: #00a6d6;
+    background:#FF8000;
 }
 .faq-info .faq li p {
     font-size: 1em;
