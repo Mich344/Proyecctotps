@@ -58,7 +58,7 @@ body a:hover{
 	transition:.5s all;
 }
 .top-header p a:hover,.top-header h2  a:hover{
-	color: #33414e;
+	color: #4010ff;
 }
 /*--social-icons--*/
 .social-icons {
@@ -117,7 +117,7 @@ body a:hover{
 	transition:.5s all;
 }
 .header-two-left ul li a:hover{
-	color:#4010ff;
+	color:#ff5a10;
 }
 .header-two-left ul li i.glyphicon {
     font-size: .9em;
