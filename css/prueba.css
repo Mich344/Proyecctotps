@@ -38,6 +38,7 @@
 }
   }
 .t-stroke-shadow {
+	color:#ffffff;
     text-shadow: -3px 3px #466CBD, -3px -3px #466CBD, 3px -3px #466CBD, 3px 3px #466CBD, 6px 6px #466CBD;
 
 }
