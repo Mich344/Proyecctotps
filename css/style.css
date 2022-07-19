@@ -1590,6 +1590,7 @@ h4.panel-title a {
 .address-info {
     background-color:rgba(254, 254, 254, 0.7);
     padding: 3em 4em;
+	width: 100%;
     
 
 }
