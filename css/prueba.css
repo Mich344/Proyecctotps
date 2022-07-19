@@ -26,20 +26,11 @@
 }
 
 text {
-  fill: #35322a;
+  fill: #D66868;
   filter: url('#money');
   font-family: 'Playfair Display', 'Georgia', serif;
   font-size: 50px;
   font-weight: 500;
-}
-
-html {
-  align-items: center;
-  background: #ebe7e0;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  min-width: 600px;
 }
 
 span.tag {
