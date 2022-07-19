@@ -29,8 +29,8 @@ text {
   fill: #D66868;
   filter: url('#money');
   font-family: 'Playfair Display', 'Georgia', serif;
-  font-size: 50px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 300;
 }
 
 span.tag {
