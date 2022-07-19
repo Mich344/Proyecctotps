@@ -37,14 +37,10 @@
     text-decoration: none;
 }
 .t-stroke {
-  color: transparent;
-  -moz-text-stroke-width: 2px;
-  -webkit-text-stroke-width: 2px;
-  -moz-text-stroke-color: #FF0000;
-  -webkit-text-stroke-color: #6D2675;
+  color: #466CBD;
 }
 .t-shadow {
-  text-shadow: 5px 5px #7EDED3;
+  text-shadow: 3px 3px #000000;
 }
 
 span.tag {
