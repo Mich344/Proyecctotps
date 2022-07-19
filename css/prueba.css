@@ -33,9 +33,13 @@
     font-weight: 900;
 }
 .logo h1 a {
-    display: inline-block;
-    color: #ff590f;
-    text-decoration: none;
+    background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+  }
+.t-stroke-shadow {
+    color: #e8858e;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+}
+
 }
 .logo h1 a b {
     color: #353F49;
