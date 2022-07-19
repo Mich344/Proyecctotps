@@ -37,13 +37,13 @@
     text-decoration: none;
 }
 .t-stroke {
-  color: black;
+  color: white;
 }
 .t-shadow {
-  text-shadow: #FF5757 0.1em 0.1em 0.2em;
+  text-shadow: white 0.1em 0.1em 0.2em;
 }
 .logo h1 a b {
-	color: black;
+	color: white;
 }
 
 span.tag {
