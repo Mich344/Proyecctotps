@@ -2374,7 +2374,7 @@ ul.dropdown-menu.multi-column.multi-column1 .menu-grids:nth-child(3) {
 .contact iframe {
     min-height: 300px;
 }
-.address {
+.address (max-width: 1080px){
     background: url(../images/1.jpg)no-repeat;
     background-size: cover;
     padding: 5em 0;
