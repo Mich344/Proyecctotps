@@ -1,0 +1,16 @@
+.logo h1 {
+    font-size: 3em;
+    margin: 0.6em 0 0.5em;
+    font-weight: 900;
+}
+.logo h1 a {
+    display: inline-block;
+    color: #ff590f;
+    text-decoration: none;
+}
+.logo h1 a b {
+    color: #353F49;
+}
+.logo {
+    text-align: center;
+}
