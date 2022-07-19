@@ -44,12 +44,9 @@
   -webkit-text-stroke-color: #466CBD;
 }
 .t-shadow {
-  text-shadow: 7px 7px #466CBD;
+  text-shadow: 7px 7px ##98AEDE;
 }
 
-.logo h1 a b {
-    color: #353F49;
-}
 span.tag {
     display: block;
     font-size: .3em;
