@@ -40,11 +40,11 @@
   color: transparent;
   -moz-text-stroke-width: 2px;
   -webkit-text-stroke-width: 2px;
-  -moz-text-stroke-color: #000000;
-  -webkit-text-stroke-color: #466CBD;
+  -moz-text-stroke-color: #FF0000;
+  -webkit-text-stroke-color: #6D2675;
 }
 .t-shadow {
-  text-shadow: 4px 4px #98AEDE;
+  text-shadow: 5px 5px #7EDED3;
 }
 
 span.tag {
