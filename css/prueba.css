@@ -33,12 +33,12 @@
     font-weight: 900;
 }
 .logo h1 a {
-    background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+    display: inline-block;
+    text-decoration: none;
+}
   }
 .t-stroke-shadow {
-    color: #e8858e;
-    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
-}
+    text-shadow: -3px 3px #466CBD, -3px -3px #466CBD, 3px -3px #466CBD, 3px 3px #466CBD, 6px 6px #466CBD;
 
 }
 .logo h1 a b {
