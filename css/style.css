@@ -397,7 +397,7 @@ ul.multi-column-dropdown:nth-child(3) {
 	/* container for the X icon */
 	position: absolute;
 	height: 100%;
-	width: 50%;
+	width: 100%;
 	top: 0;
 	left: 0;
 }
