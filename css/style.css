@@ -396,7 +396,7 @@ ul.multi-column-dropdown:nth-child(3) {
 .cd-search-trigger span {
 	/* container for the X icon */
 	position: absolute;
-	height: 100%;
+	height: 200%;
 	width: 100%;
 	top: 0;
 	left: 0;
