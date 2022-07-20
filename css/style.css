@@ -1662,7 +1662,7 @@ h4.panel-title a {
 }
 .address input[type="submit"]:hover{
 	background: none;
-	color: #FF590F;
+	color: #fff;
 }
 .address ::-webkit-input-placeholder{
 	color:#fff !important;
