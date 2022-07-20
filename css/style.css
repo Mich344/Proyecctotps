@@ -670,7 +670,7 @@ h3.title span {
 }
 .gallery-text p {
     font-size: 1.3em;
-    color: #ff590f;
+    color: #D2051F;
     font-weight: 700;
 	margin-bottom: 1em;
 }
@@ -2370,7 +2370,7 @@ ul.dropdown-menu.multi-column.multi-column1 .menu-grids:nth-child(3) {
     min-height: 300px;
 }
 .address{
-	padding: 2em;
+	padding: 6em;
 	}
 	
 .address{
@@ -2402,7 +2402,7 @@ ul.dropdown-menu.multi-column.multi-column1 .menu-grids:nth-child(3) {
     padding: 2.5em;
 }
 .address-grid {
-    padding: 5em;
+    padding: 2.5em;
 }
 .address input[type="text"] {
     padding: .6em 1em;
