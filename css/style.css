@@ -1203,7 +1203,7 @@ input#amount {
     text-decoration: none;
 }
 .faq > li > a:hover,.faq > li >a.active{
-	color: #ffffff;
+	color: #ff0000;
 }
 .faq li a.active span {
 	-webkit-transform: rotatex(180deg);
