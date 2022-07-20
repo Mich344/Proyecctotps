@@ -1530,7 +1530,7 @@ h4.panel-title a {
     outline: none;
     cursor: pointer;
     color: #fff;
-    background: #52CFF3;
+    background: #D2051F;
     width: 100%;
     padding: .8em 1em;
     font-size: 1em;
@@ -1538,7 +1538,7 @@ h4.panel-title a {
 	transition: .5s all;
 }
 .login-page input[type="submit"]:hover{
-    background: #FF590F;
+    background: #000000;
 }
 .login-page-bottom {
     text-align: center;
@@ -1581,8 +1581,7 @@ h4.panel-title a {
     	background: rgb(238,174,202);
 	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     	padding: 4em;
-	width 50%;
-	margin 2em 0;
+	
     
 }
 .address-info {
