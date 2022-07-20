@@ -117,7 +117,7 @@ body a:hover{
 	transition:.5s all;
 }
 .header-two-left ul li a:hover{
-	color:#ff5a10;
+	color: #B2051F;
 }
 .header-two-left ul li i.glyphicon {
     font-size: .9em;
@@ -171,7 +171,7 @@ span.tag {
 }
 .header-right span.glyphicon {
     font-size: 1.5em;
-    color: #ff590f;
+    color: #B2051F;
     margin-right: 5px;
 }
 .cart-box p {
@@ -1217,7 +1217,7 @@ input#amount {
     display: block;
     position: relative;
     font-size: 1em;
-    color: #000000;
+    color: #999;
     text-decoration: none;
 	font-weight: 400;
     padding-left: 1.5em;
