@@ -51,14 +51,14 @@ body a:hover{
 	font-family: 'Raleway', sans-serif;
 }
 .top-header p a,.top-header h2 a{
-    color: #ff5a10;
+    color: #B2051F;
     padding: 0 7px;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	transition:.5s all;
 }
 .top-header p a:hover,.top-header h2  a:hover{
-	color: #000000;
+	color: #434D63;
 }
 /*--social-icons--*/
 .social-icons {
@@ -2495,8 +2495,8 @@ ul.dropdown-menu.multi-column.multi-column1 .menu-grids:nth-child(3) {
     width: 28%;
 }
 button.navbar-toggle {
-    border-color: #F07818 !important;
-    background-color: #F07818;
+    border-color: #B2051F !important;
+    background-color: #B2051F;
 }
 button.navbar-toggle {
     margin-right: 48%;
