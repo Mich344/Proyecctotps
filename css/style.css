@@ -1590,7 +1590,9 @@ h4.panel-title a {
     padding: 4em;
 }
 .address-info {
-    background-color:rgba(0, 166, 214, 0.7);
+   	background: #485563;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 3em 4em;
 }
 .address-info.address-mdl {
