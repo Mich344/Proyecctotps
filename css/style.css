@@ -1577,12 +1577,14 @@ h4.panel-title a {
 }
 /*--//login-page--*/
 /*--contact--*/
+.address {
+    background: url(../images/1.jpg)no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+}
 .address-grid {
-    	background: rgb(238,174,202);
-	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    	padding: 4em;
-	
-    
+    background-color:rgba(0, 166, 214, 0.7);
+    padding: 4em;
 }
 .address-info {
     background-color:rgba(0, 166, 214, 0.7);
@@ -1642,11 +1644,11 @@ h4.panel-title a {
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #B2051F;
-    border: solid 1px #B2051F;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
+    background: #FF590F;
+    border: solid 1px #FF590F;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -2371,14 +2373,8 @@ ul.dropdown-menu.multi-column.multi-column1 .menu-grids:nth-child(3) {
 .contact iframe {
     min-height: 300px;
 }
-.address{
-	padding: 6em;
-	}
-	
-.address{
-    	background: url(../images/bb.jpg)no-repeat; 
- 	background-size: cover;
-  	padding: 5em 0;
+.address {
+    padding: 4em 0;
 }
 .address h4 {
     font-size: 2.5em;
