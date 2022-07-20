@@ -136,7 +136,7 @@ body a:hover{
 }
 .logo h1 a {
     display: inline-block;
-    color: #ff590f;
+    color: #B2051F;
     text-decoration: none;
 }
 .logo h1 a b {
@@ -599,7 +599,7 @@ ul#example li p {
 h3.title{
     font-size: 3.5em;
     font-weight: 900;
-    color: #FF590F;
+    color: #B2051F;
 }
 h3.title span {
     color: #353f49;
@@ -777,7 +777,7 @@ h3.title span {
     font-weight: 800;
 }
 .footer-grids h4 a{
-	color:#FF590F;
+	color:#B2051F;
 	text-decoration:none;
 }
 .footer-grids h4 a b {
@@ -785,7 +785,7 @@ h3.title span {
 }
 .footer-grids h3 {
     font-size: 3em;
-    color: #FF590F;
+    color: #B2051F;
     margin-bottom: 0.5em;
 }
 .footer-grids p {
@@ -843,8 +843,8 @@ h3.title span {
 }
 .footer input[type="submit"] {
     outline: none;
-    border: 3px solid #FF590F;
-    background: #FF590F;
+    border: 3px solid #B2051F;
+    background: #B2051F;
     color: #fff;
     font-size: 1.1em;
     padding: 9px 12px;
@@ -1640,11 +1640,11 @@ h4.panel-title a {
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #FF590F;
-    border: solid 1px #FF590F;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
+    background: #B2051F;
+    border: solid 1px #B2051F;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
