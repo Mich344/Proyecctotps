@@ -1577,13 +1577,6 @@ h4.panel-title a {
 }
 /*--//login-page--*/
 /*--contact--*/
-.address {
-    	background: url(../images/111.mp4);
-  	background-size: cover;
-  	background-repeat: no-repeat;
-	margin: 0;
-  	height: 100vh;
-}
 .address-grid {
     background-color:rgba(0, 166, 214, 0.7);
     padding: 4em;
@@ -2377,10 +2370,11 @@ ul.dropdown-menu.multi-column.multi-column1 .menu-grids:nth-child(3) {
     min-height: 300px;
 }
 .address{
-    background: url(../images/1.jpg)no-repeat;
-    background-size: cover;
-    padding: 5em 0;
-}
+    	background: url(../images/1.jpg)no-repeat; 
+ 	background-size: cover;
+  	background-repeat: no-repeat;
+  	margin: 0;
+  	height: 100vh;
 }
 .address h4 {
     font-size: 2.5em;
