@@ -986,7 +986,7 @@ h3.title span {
 .breadcrumb1 li span {
     left: 0em;
     padding-right: 1em;
-    color: #B2051F;
+    color: #D8703F;
 }
 .breadcrumb > .active {
     color: #FFF;
@@ -1203,7 +1203,7 @@ input#amount {
     text-decoration: none;
 }
 .faq > li > a:hover,.faq > li >a.active{
-	color: #000;
+	color: #ffffff;
 }
 .faq li a.active span {
 	-webkit-transform: rotatex(180deg);
