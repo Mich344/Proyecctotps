@@ -1790,7 +1790,7 @@ ul.qty li p {
 /*--faq--*/
 .faq-info a {
     padding: 1em 1.5em;
-   background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+  background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
 }
 .faq-info .faq li p {
     font-size: 1em;
