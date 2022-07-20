@@ -58,7 +58,7 @@ body a:hover{
 	transition:.5s all;
 }
 .top-header p a:hover,.top-header h2  a:hover{
-	color: #B235FF;
+	color: #D2051F;
 }
 /*--social-icons--*/
 .social-icons {
@@ -117,7 +117,7 @@ body a:hover{
 	transition:.5s all;
 }
 .header-two-left ul li a:hover{
-	color:#ff5a10;
+	color:#D2051F;
 }
 .header-two-left ul li i.glyphicon {
     font-size: .9em;
@@ -734,12 +734,12 @@ h3.title span {
 	box-shadow: 0px 0px 6px 1px #E6E6E6;
 }
 .trend-info {
-    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+    background: #00a6d6;
     padding: 4em 12em 3em 3em;
 }
 .trend-slider h4 {
     font-size: 2.8em;
-    color: #FFF;
+    color: #000;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
@@ -747,18 +747,18 @@ h3.title span {
 .trend-slider h4 span {
     margin-top: .4em;
     font-weight: 900;
-    color: #000000;
+    color: #fff;
 }
 .trend-slider h5 {
     font-size: 3em;
-    color: #B2051F;
+    color: #014A5F;
     margin-top: .5em;
     text-align: center;
     font-family: 'Fascinate', cursive;
 }
 .trend-slider p {
     font-size: 1em;
-    color: #000000;
+    color: #fff;
     line-height: 2em;
     margin-top: 1.5em;
 	font-weight: 400;
@@ -980,7 +980,7 @@ h3.title span {
     font-weight: 700;
 }
 .breadcrumb1 li a{
-	color:#d8703f;
+	color:#D2051F;
 	text-decoration:none;
 }
 .breadcrumb1 li span {
@@ -1794,7 +1794,7 @@ ul.qty li p {
 }
 .faq-info .faq li p {
     font-size: 1em;
-    color: #000000;
+    color: #999;
     padding-left: 2em;
     line-height: 1.8em;
 }
