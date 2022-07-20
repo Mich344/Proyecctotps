@@ -223,7 +223,7 @@ ul.dropdown-menu.multi-column {
 	transition:.5s all;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a.active{
-    color: #FF590F;
+    color: #D2051F;
     background: none;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
