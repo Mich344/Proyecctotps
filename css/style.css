@@ -51,7 +51,7 @@ body a:hover{
 	font-family: 'Raleway', sans-serif;
 }
 .top-header p a,.top-header h2 a{
-    color: #B2051F;
+    color: #33414e;
     padding: 0 7px;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
@@ -160,11 +160,11 @@ span.tag {
 }
 .header-right a {
     font-size: 0.9em;
-    color: #D2051F;
+    color: #33414e;
     font-weight: 500;
 }
 .header-right a:hover {
-    color: #FF590F;
+    color: #D2051F;
 }
 .header-right.cart h4 {
     display: inline-block;
