@@ -1583,16 +1583,14 @@ h4.panel-title a {
     padding: 5em 0;
 }
 .address-grid {
-    	background: #948E99;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    	background: rgb(159,166,175);
+	background: radial-gradient(circle, rgba(159,166,175,1) 0%, rgba(0,0,0,1) 98%);
 
     padding: 4em;
 }
 .address-info {
-   	background: #485563;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   	background: rgb(178,5,31);
+	background: radial-gradient(circle, rgba(178,5,31,1) 0%, rgba(189,64,83,1) 31%, rgba(198,108,122,1) 67%, rgba(219,216,216,1) 100%);
     padding: 3em 4em;
 }
 .address-info.address-mdl {
@@ -1785,7 +1783,7 @@ ul.qty li p {
 /*--about--*/
 .about p {
     font-size: 1em;
-    color: #000000;
+    color: #999;
     line-height: 2em;
     font-weight: 500;
 }
