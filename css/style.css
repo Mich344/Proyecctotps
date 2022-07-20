@@ -1583,16 +1583,16 @@ h4.panel-title a {
     padding: 5em 0;
 }
 .address-grid {
-    	background: #870000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    	background: #948E99;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     padding: 4em;
 }
 .address-info {
-   	background: #283048;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   	background: #485563;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 3em 4em;
 }
 .address-info.address-mdl {
@@ -1792,7 +1792,7 @@ ul.qty li p {
 .about h4 {
     font-size: 2em;
     font-weight: 900;
-    color: #D2051F;
+    color: #000000;
     margin: 1em 0 .5em;
 }
 /*--//about--*/
