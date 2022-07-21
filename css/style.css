@@ -275,6 +275,13 @@ ul.multi-column-dropdown:nth-child(3) {
 .menu-grids img {
     width: 100%;
 }
+
+.ok {
+    background:url(../images/oki.jpg)no-repeat center;
+    background-size: cover;
+    min-height: 210px;
+}
+
 .lll {
     background:url(../images/R.jpg)no-repeat center;
     background-size: cover;
