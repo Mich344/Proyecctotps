@@ -294,8 +294,8 @@ th {
 .glyphicon-cloud:before {
   content: "\2601";
 }
-.glyphicon-envelope:before { 
-  content: "\F5B4";
+bi bi-envelope-fill { 
+ color: yellow;
 }
 .glyphicon-pencil:before {
   content: "\270f";
