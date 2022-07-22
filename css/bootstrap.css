@@ -1,8 +1,4 @@
-/*!
- * Bootstrap v3.3.4 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -299,7 +295,7 @@ th {
   content: "\2601";
 }
 .glyphicon-envelope:before { 
-  content: "\2709";
+  content: "\F5B4";
 }
 .glyphicon-pencil:before {
   content: "\270f";
