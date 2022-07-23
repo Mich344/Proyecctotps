@@ -1347,13 +1347,13 @@ input#amount {
 }
 .single-info p {
     font-size: 1em;
-    color: #b2051f;
+    color: #000000;
     line-height: 1.8em;
     margin: 1em 0;
 }
 .single-info .quantity p {
     display: inline-block;
-    color: #FF590F;
+    color: #b2051f;
     font-weight: 700;
 }
 .quantity input.item_quantity {
@@ -1372,7 +1372,7 @@ input#amount {
     width: 50%;
 }
 .single-top-left ul  h4 {
-    color: #b2051f;
+    color: #000000;
     font-size: 2.2em;
 }
 .single-top-left ul li {
@@ -1447,8 +1447,8 @@ h4.panel-title a {
 }
 .panel-default > .panel-heading {
     color: #fff;
-    background-color: #00a6d6;
-    border-color: #00a6d6;
+    background-color: #b2051f;
+    border-color: #b2051f;
     padding: 0;
 }
 /*--//single-page--*/
