@@ -56,44 +56,56 @@ body a:hover{
 	color: #D2051F;
 }
 /*--social-icons--*/
-.social-icons {
-    margin-top: 0.5em;
+:root{
+    --facebook: #3b5999;
+    --instagram:#e4405f;
+    --twitter:#55acee;
+    --pinterest:#bd081c;
 }
-.social-icons ul li {
+.redes-container{
+    display: flex;
+    height: 300px;
+    align-items:right;
+    justify-content:right;
+    
+} 
+.redes-container ul li{
     display: inline-block;
-    margin-left: 1em;
+    margin:  5px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
 }
-.social-icons ul li a {
-    background: url(../images/social-icons.png)no-repeat -3px -2px;
+.redes-container ul li a{
     display: block;
-    height: 22px;
-    width: 20px;
-    -webkit-transition: .5s all;
-    transition: .5s all;
-    -moz-transition: .5s all;
-    padding: 0;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,.2);
+    border-radius: 50%;
+} 
+ .redes-container ul:hover  a{
+      filter: blur(2px);
+
+ }
+ .redes-container ul li a:hover{
+     transform: translateY(-3px) scale(1.05);
+     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0,.4);
+     filter: none;
+ }
+ .redes-container ul li .facebook:hover{
+     background: var(--facebook);
+ }
+ .redes-container ul li .instagram:hover{
+    background: var(--instagram);
 }
-.social-icons ul li a.pin {
-    background-position: -3px -38px;
+.redes-container ul li .twitter:hover{
+    background: var(--twitter);
 }
-.social-icons ul li a.in {
-    background-position: -3px -78px;
-}
-.social-icons ul li a.be {
-    background-position: -3px -115px;
-}
-.social-icons ul li a.you {
-    background-position: -3px -154px;
-}
-.social-icons ul li a.vimeo {
-    background-position: -2px -192px;
-}
-.social-icons ul li a:hover{
-	-webkit-transform:rotateY(360deg);
-	transform:rotateY(360deg);
-	-moz-transform:rotateY(360deg);
-	-o-transform:rotateY(360deg);
-	-ms-transform:rotateY(360deg);
+.redes-container ul li .pinterest:hover{
+    background: var(--pinterest);
 }
 /*--header-two--*/
 .header-two-left {
