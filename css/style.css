@@ -1327,7 +1327,7 @@ input#amount {
 }
 .single-rating a {
     font-size: 1em;
-    color: #999;
+    color: #000000;
     font-weight: 500;
 	vertical-align: middle;
 }
@@ -1347,7 +1347,7 @@ input#amount {
 }
 .single-info p {
     font-size: 1em;
-    color: #999;
+    color: #000000;
     line-height: 1.8em;
     margin: 1em 0;
 }
@@ -1372,7 +1372,7 @@ input#amount {
     width: 50%;
 }
 .single-top-left ul  h4 {
-    color: #ff590f;
+    color: #000000;
     font-size: 2.2em;
 }
 .single-top-left ul li {
@@ -1380,14 +1380,14 @@ input#amount {
     margin: 1em 1em 1em 0;
 }
 .single-top-left ul li a {
-    color: #999;
+    color: #000000;
     font-weight: 600;
     font-family: 'Pompiere', cursive;
     font-size: 1em;
     letter-spacing: 1px;
 }
 .single-top-left ul li a:hover{
-    color: #ff590f;
+    color: #b2051f;
 }
 .single-top-left ul.color li a {
     width: 12px;
@@ -1412,14 +1412,14 @@ input#amount {
     padding: 0.8em 2em;
     display: inline-block;
     text-decoration: none;
-    color: #353F49;
+    color: #000000;
     font-size: 0.9em;
     font-weight: 600;
     margin: 1em 0;
 }
 .btn_form a:hover{
-	color: #ff590f;
-	border-color: #ff590f;
+	color: #b2051f;
+	border-color: #b2051f;
 }
 /*--collapse-tabs--*/
 .collpse.tabs {
