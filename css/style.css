@@ -1347,7 +1347,7 @@ input#amount {
 }
 .single-info p {
     font-size: 1em;
-    color: #000000;
+    color: #b2051f;
     line-height: 1.8em;
     margin: 1em 0;
 }
@@ -1365,14 +1365,14 @@ input#amount {
     outline: none;
     text-align: center;
     font-size: 1em;
-    color: #999;
+    color: #000000;
 }
 .single-top-left ul {
     float: left;
     width: 50%;
 }
 .single-top-left ul  h4 {
-    color: #000000;
+    color: #b2051f;
     font-size: 2.2em;
 }
 .single-top-left ul li {
@@ -1437,7 +1437,7 @@ h4.panel-title a {
     padding: .6em 1.5em;
 }
 .panel-default {
-    border-color: #52CFF3;
+    border-color: #b2051f;
 }
 .panel-body {
 	padding: 15px;
