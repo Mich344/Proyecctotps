@@ -34,7 +34,7 @@
             return $pdo;
 
          
-        } catch (Exception $e){
+        } catch (PDOException $e){
          
             echo 'Error capturado' . $e -> getMessage();
          
