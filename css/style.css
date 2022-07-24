@@ -61,6 +61,7 @@ body a:hover{
     height: 60px;
     align-items:right;
     justify-content:flex-end;
+	border-radius: 15%;
     
 } 
 .redes-container ul li{
