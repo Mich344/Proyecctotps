@@ -359,12 +359,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 					
-				<div class="gallery-info">
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".7s">
-					<a href="products.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
+				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
+					<a href="products.html"><img src="images/g2.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
-						<p><span class="item_price">100$</span></p>
+						<h5><a class="name" href="single.html">Pokemon Onesies</a></h5>
+						<p><span class="item_price">79$</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
