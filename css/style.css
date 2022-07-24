@@ -718,7 +718,7 @@ h3.title span {
 }
 .gallery-text ul li a span.glyphicon {
     font-size: 1.2em;
-    color: #33414E;
+    color: #b2051f;
 	-webkit-transition:.5s all;
 	transition:.5s all;
 	-moz-transition:.5s all;
@@ -932,7 +932,7 @@ h3.title span {
 }
 .ofr p {
     font-size: 1.1em;
-    color: #353F49;
+    color: #b2051f;
     display: inline-block;
     margin-top: 1em;
     font-weight: 600;
