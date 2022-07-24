@@ -28,7 +28,7 @@ body a:hover{
 /*--header--*/
 .navbar.navbar-default {
     background: #fff;
-    margin: 5px;
+    margin: -5px;
     border-top: none;
 	min-height: 40px;
 }
