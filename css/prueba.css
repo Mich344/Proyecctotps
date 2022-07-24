@@ -2785,7 +2785,7 @@ input.item_quantity {
 }
 }
 @media(max-width:480px){
-button.navbar-toggle {
+.button.navbar-toggle {
     margin-left: 50%;
 	background: #fff;
     margin: 0;
@@ -2801,9 +2801,10 @@ button.navbar-toggle {
     float: none;
     margin: 0.5em 0;
 	background: #fff;
-    margin: 0;
-    border-top: none;
-    min-height: 40px;
+	display: flex;
+    flex: auto;
+    justify-content: flex-start;
+}
 }
 .header-two .navbar-nav.header-two-left {
     margin-top: 1em;
