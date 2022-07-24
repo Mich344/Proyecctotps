@@ -56,18 +56,13 @@ body a:hover{
 	color: #D2051F;
 }
 /*--social-icons--*/
-.redes-container{
-    display: flex;
-    height: 60px;
-    align-items:right;
-    justify-content:flex-end;
-    
-} 
 .redes-container ul li{
     display: inline-block;
     margin:  5px;
-    width: 50px;
+    width: 30px;
     height: 30px;
+    width: 45px;
+    height: 40px;
     text-align: center;
 }
 .redes-container ul li a{
@@ -78,7 +73,8 @@ body a:hover{
     line-height: 50px;
     font-size: 18px;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,.2);
-	border-radius: 50%;}
+    border-radius: 50%;
+}
 .redes-container ul li a{
     display: block;
     padding: 0 10px;
