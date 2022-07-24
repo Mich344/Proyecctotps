@@ -63,10 +63,10 @@ body a:hover{
     justify-content:flex-end;
 }
 .redes-container ul li{
-    display: inline-block;
+
     margin:  5px;
     width: 40px;
-height: 40px;
+height: 10px;
 
     text-align: center;
 }
