@@ -1,6 +1,6 @@
 
 <?php
-require 'config/database.php';
+require 'conexion/config.php';
 $db = new database();
 $con = $db->conectar();
 $sql = $con->prepare("SELECT id, nombre, precio FROM productos WHERE activo=1");
