@@ -358,14 +358,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="new-top">
 						<a href="single.html"><img src="images/g9.jpg" class="img-responsive" alt=""/></a>
 						<div class="new-text">
-							<?php foreach ()$resultado as $row){?>
+							<?php foreach ($resultado as $row){?>
 							<ul>
 								<li><a class="item_add" href="">Añadir al carrito</a></li>
 								<li><a href="single.html">Vista rápida</a></li>
 								<li><a href="products.html">Mostrar detalles</a></li>
 							</ul>
 						</div>
-						<php } >?
+						<php } ?>
 					</div>
 					<div class="new-bottom">
 						<h5><a class="name" href="single.html">Baby Red Dress </a></h5>
