@@ -58,13 +58,13 @@ body a:hover{
 /*--social-icons--*/
 .redes-container{
     display: flex;
-    height: 60px;
+    height: 50px;
     align-items:right;
     justify-content:flex-end;
 }
 .redes-container ul li{
 	  margin:  5px;
-	height: 40px;
+	height: 5px;
 	    width: 30px;
     display: inline-block;
     text-align: center;
