@@ -66,8 +66,8 @@ body a:hover{
 .redes-container ul li{
     display: inline-block;
     margin:  5px;
-    width: 35px;
-    height: 10px;
+    width: 45px;
+    height: 20px;
     text-align: center;
 }
 .redes-container ul li a{
@@ -78,7 +78,7 @@ body a:hover{
     line-height: 50px;
     font-size: 18px;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,.2);
-    border-radius: 50%;
+    border-radius: 30%;
 } 
  .redes-container ul:hover  a{
       filter: blur(2px);
