@@ -2786,7 +2786,7 @@ input.item_quantity {
 }
 @media(max-width:480px){
 button.navbar-toggle {
-    margin-right: 10%;
+    margin-left: 50%;
 }
 .top-header .nav.navbar-nav {
     float: none;
