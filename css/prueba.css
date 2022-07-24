@@ -2787,6 +2787,11 @@ input.item_quantity {
 @media(max-width:480px){
 button.navbar-toggle {
     margin-left: 50%;
+	background: #fff;
+    margin: 0;
+    border-top: none;
+    min-height: 40px;
+
 }
 .top-header .nav.navbar-nav {
     float: none;
@@ -2795,6 +2800,10 @@ button.navbar-toggle {
 .top-header .nav.navbar-nav.social-icons {
     float: none;
     margin: 0.5em 0;
+	background: #fff;
+    margin: 0;
+    border-top: none;
+    min-height: 40px;
 }
 .header-two .navbar-nav.header-two-left {
     margin-top: 1em;
