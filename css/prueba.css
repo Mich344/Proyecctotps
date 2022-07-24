@@ -55,6 +55,7 @@ body a:hover{
 	color: #D2051F;
 }
 /*--social-icons--*/
+@media (max-width:320px){
 .redes-container{
     display: flex;
     height: 40px;
@@ -100,6 +101,7 @@ body a:hover{
 }
 .redes-container ul li .pinterest:hover{
     background: #bd081c;
+}
 }
 /*--header-two--*/
 .header-two-left {
