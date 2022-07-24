@@ -695,7 +695,7 @@ h3.title span {
 }
 .gallery-text h4.sizes {
     font-size: 1.4em;
-    color: #000;
+    color: #000000;
     margin: 0.3em 0 0.8em;
 }
 .gallery-text h4.sizes a{
@@ -709,7 +709,7 @@ h3.title span {
     font-size: .7em;
 }
 .gallery-text h4.sizes a:hover{
-    color: #ff590f;
+    color: #b2051f;
 }
 .gallery-text ul li {
     display: inline-block;
@@ -724,7 +724,7 @@ h3.title span {
 	-moz-transition:.5s all;
 }
 .gallery-text ul li a span.glyphicon:hover{
-    color: #ff590f;
+    color: #b2051f;
 }
 .gallery-grid:hover .gallery-text {
     height: initial;
@@ -739,7 +739,7 @@ h3.title span {
     margin: .5em 0 .3em;
 }
 .gallery-grid:hover .gallery-text h5 a{
-    color: #00a6d6;
+    color: #b2051f;
 }
 .gallery-grid:hover .gallery-text p {
     margin-bottom: 0em;
