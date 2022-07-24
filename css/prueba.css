@@ -3140,8 +3140,9 @@ h3.title {
 }
 @media(max-width:400px){
 .top-header p, .top-header h2 {
-    margin-top: 2em;
+    margin-top: .7em;
     font-size: 0.8em;
+	justify-content: space-around;
 }
 .top-header p a, .top-header h2 a {
     padding: 0 3px;
