@@ -63,16 +63,19 @@ body a:hover{
     justify-content:flex-end;
 }
 .redes-container ul li{
+	  margin:  5px;
+	height: 55px;
+	    width: 40px;
     display: inline-block;
-    margin:  5px;
-    width: 40px;
-height: 10px;
+  
+
+
 
     text-align: center;
 }
 .redes-container ul li a{
     display: block;
-
+    padding: 0 10px;
     background: #333;
     color: #fff;
     line-height: 50px;
