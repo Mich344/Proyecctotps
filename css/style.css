@@ -59,7 +59,7 @@ body a:hover{
 .redes-container{
     display: flex;
     height: 50px;
-    align-items:right;
+    align-items:center;
     justify-content:flex-end;
 }
 .redes-container ul li{
@@ -67,7 +67,7 @@ body a:hover{
 	height: 5px;
 	    width: 30px;
     display: inline-block;
-    text-align: right;
+    text-align: center;
 }
 .redes-container ul li a{
     display: block;
