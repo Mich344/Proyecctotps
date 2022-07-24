@@ -60,7 +60,7 @@ body a:hover{
     display: flex;
     height: 60px;
     align-items:right;
-    justify-content:right;
+    justify-content:flex-end;
     
 } 
 .redes-container ul li{
