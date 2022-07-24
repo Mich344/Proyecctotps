@@ -3138,11 +3138,10 @@ h3.title {
     margin-left: 0.5em;
 }
 }
-@media(max-width:400px){
-
+@media(max-width:100px){
 .top-header p, .top-header h2 {
-    margin-top: .5em;
-    font-size: 0.3em;
+    margin-top: .9em;
+    font-size: 0.8em;
 }
 .top-header p a, .top-header h2 a {
     padding: 0 3px;
