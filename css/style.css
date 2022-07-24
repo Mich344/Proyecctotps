@@ -58,7 +58,7 @@ body a:hover{
 /*--social-icons--*/
 .redes-container{
     display: flex;
-    height: 30px;
+    height: 45px;
     align-items:right;
     justify-content:flex-end;
     
