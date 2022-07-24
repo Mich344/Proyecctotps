@@ -3369,5 +3369,13 @@ ul.qty li {
     padding: 0.6em 0em;
 }
 }
+@media(max-width:400px){
+.redes-container{
+    display: flex;
+    height: 40px;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+}
 /*--//responsive-design---*/
 
