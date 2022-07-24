@@ -373,12 +373,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 					
-				<div class="gallery-info">
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".9s">
-					<a href="products.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
+				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
+					<a href="products.html"><img src="images/g3.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
-						<p><span class="item_price">100$</span></p>
+						<h5><a class="name" href="single.html">Doctor Play Set</a></h5>
+						<p><span class="item_price">30$</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
@@ -388,18 +387,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 					
-				<div class="gallery-info">
 				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
-					<a href="products.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
+					<a href="products.html"><img src="images/g4.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
-						<p><span class="item_price">100$</span></p>
+						<h5><a class="name" href="single.html">Cap & Gloves Set</a></h5>
+						<p><span class="item_price">15$</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
 							
-						</ul>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
