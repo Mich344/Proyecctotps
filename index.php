@@ -360,7 +360,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 					
 				<div class="gallery-info">
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".7s">
 					<a href="products.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
 						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
@@ -375,7 +375,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 					
 				<div class="gallery-info">
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".9s">
 					<a href="products.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
 						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
@@ -390,7 +390,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 					
 				<div class="gallery-info">
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
 					<a href="products.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
 						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
@@ -425,7 +425,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -438,7 +438,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -451,7 +451,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -464,8 +464,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
+							
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
@@ -477,7 +476,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -490,7 +489,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -503,7 +502,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -516,7 +515,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
