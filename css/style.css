@@ -40,7 +40,7 @@ body a:hover{
     font-size: 0.9em;
     color: #353F49;
     line-height: 1.8em;
-    margin-top: .8em;
+    margin-top: .3em;
     letter-spacing: 1px;
     font-weight: 500;
 	font-family: 'Raleway', sans-serif;
@@ -58,8 +58,8 @@ body a:hover{
 /*--social-icons--*/
 .redes-container{
     display: flex;
-    height: 50px;
-    align-items:center;
+    height: 40px;
+    align-items:baseline;
     justify-content:flex-end;
 }
 .redes-container ul li{
