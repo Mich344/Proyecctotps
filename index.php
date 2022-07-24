@@ -344,20 +344,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h3 class="title">Productos  <span> Nuevos</span></h3>
 				<p>Productos subidos recientemente  </p>
 			</div>
-			<div class="new-info">
-				<div class="col-md-3 new-grid simpleCart_shelfItem wow flipInY animated" data-wow-delay=".5s">
-					<div class="new-top">
-						<a href="single.html"><img src="images/g9.jpg" class="img-responsive" alt=""/></a>
-						<div class="new-text">
-							
-							<ul>
-								<li><a class="item_add" href="">Añadir al carrito</a></li>
-								<li><a href="single.html">Vista rápida</a></li>
-								<li><a href="products.html">Mostrar detalles</a></li>
-							</ul>
-						</div>
-					
+			<div class="gallery-info">
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+					<a href="products.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
+						<p><span class="item_price">100$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+						</ul>
 					</div>
+				</div>
 					<div class="new-bottom">
 						<h5><a class="name" href="single.html">Baby Red Dress </a></h5>
 						<div class="rating">
