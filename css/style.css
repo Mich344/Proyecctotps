@@ -65,10 +65,10 @@ body a:hover{
 .redes-container ul li{
     display: inline-block;
     margin:  5px;
-    width: 30px;
+
     height: 30px;
     width: 45px;
-    height: 40px;
+
     text-align: center;
 }
 .redes-container ul li a{
