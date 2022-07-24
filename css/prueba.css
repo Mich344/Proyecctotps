@@ -3147,7 +3147,7 @@ h3.title {
 .social-btn.sb-two {
     margin-left: 0.5em;
 }
-}
+
 @media(max-width:400px){
 	.top-header p, .top-header h2 {
 	display: flex;	
