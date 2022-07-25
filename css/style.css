@@ -62,9 +62,9 @@ body a:hover{
     align-items:baseline;
     justify-content:flex-end;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 470px) {
     .redes-container{
-        align-items: center;
+        /*--align-items: center;--*/
         justify-content: center;
         margin-right:auto;
     } } 
