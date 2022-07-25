@@ -506,30 +506,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 rsidebar">
-				<div class="rsidebar-top">
-					<div class="slider-left">
-						<h4>Filtro de precio</h4>            
-						<div id="slider-range"></div>							
-						<input type="text" id="amount" style="border: 0; color: #ffffff; font-weight: normal;" />
-						<!---->
-						<script type='text/javascript'>//<![CDATA[ 
-							$(window).load(function(){
-							 $( "#slider-range" ).slider({
-										range: true,
-										min: 0,
-										max: 9000,
-										values: [ 1000, 7000 ],
-										slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-										}
-							 });
-							$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-
-							});//]]>  
-						</script>
-						<script type="text/javascript" src="js/jquery-ui.js"></script>
-						<!---->
-					</div>
+			
 					<div class="sidebar-row">
 						<h4> Ropa y Zapatos </h4>
 						<ul class="faq">
