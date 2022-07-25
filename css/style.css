@@ -64,7 +64,7 @@ body a:hover{
 }
 @media screen and (max-width: 1000px) {
     .redes-container{
-        align-items: center;
+        /*--align-items: center;--*/
         justify-content: center;
         margin-right:auto;
     } } 
