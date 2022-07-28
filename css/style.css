@@ -3370,6 +3370,11 @@ ul.qty li {
 .new-text ul li a {
     padding: 0.6em 0em;
 }
-}
+	}
+	h9 {
+		font-weight: 100;
+		font-family: cursive;
+		font-size: smaller;
+	}
 /*--//responsive-design---*/
 }
