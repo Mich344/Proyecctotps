@@ -14,8 +14,10 @@ body a{
 }
 
 .parlante{
+	
 
    position: relative;
+	margin-top: 40px;
     width: 28px;
     height: 28px;
 
