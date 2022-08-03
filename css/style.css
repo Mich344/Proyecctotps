@@ -13,8 +13,21 @@ body a{
 	text-decoration:none;
 }
 
-.parlante{
-   
+.form_btn{
+    margin: 1rem;
+}
+
+.btn_audio{
+
+    padding: 2rem;
+    font-size: 20px;
+    border-radius: 1rem;
+    border: 1px solid red;
+    background: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2;
+    cursor: pointer;
 }
 
 
