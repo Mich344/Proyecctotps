@@ -55,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="top-header navbar navbar-default"><!--header-one-->
 			<div class="container">
 				<div class="nav navbar-nav wow fadeInLeft animated" data-wow-delay=".5s">
-					<p><strong> <a href="#" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.html"><strong>Registrarse</strong> </a> O <a href="signin.html"><strong>Ingresar </strong></a></p>
+					<p><strong> <a href="sda.html" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.html"><strong>Registrarse</strong> </a> O <a href="signin.html"><strong>Ingresar </strong></a></p>
 				</div>
 				<div class="redes-container">
 					<ul>
@@ -115,8 +115,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<!--navbar-header-->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						            <i><img class="parlante" src="images/altavoz.png" alt="vocina"></i> 
 						<ul class="nav navbar-nav top-nav-info">
 							<li class="dropdown">
+								
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mujeres<b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column multi-column1">
 									<div class="row">
@@ -267,35 +269,162 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!--//header-->
-	<!--breadcrumbs-->
-	<div class="breadcrumbs">
+	<!--banner-->
+	<div class="banner">
 		<div class="container">
-			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-				<li class="active">Productos</li>
-			</ol>
+			<div class="banner-text">			
+				 <div class="col-sm-5 banner-left wow fadeInLeft animated" data-wow-delay=".5s">			
+					 <h2>LO MÁS GRANDE DE LA MODA</h2>
+					<h3>PRÓXIMAMENTE! </h3>
+					<h4>¡NUESTROS NUEVOS DISEÑOS!</h4> 
+					<div class="count main-row">
+						 <ul id="example">
+							 <li><span class="hours">00</span><p class="hours_text">Horas</p></li>
+							<li><span class="minutes">00</span><p class="minutes_text">Minutos</p></li>
+							<li><span class="seconds">00</span><p class="seconds_text">Segundos</p></li>
+						</ul> 
+
+							<div class="clearfix"> </div>
+						 <marquee  behavior="scroll" direction="right">
+							<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+							<script type="text/javascript">
+								$('#example').countdown({
+									date: '12/24/2020 15:59:59',
+									offset: -8,
+									day: 'Day',
+									days: 'Days'
+								});
+							</script> 
+						</marquee> 
+					</div>
+
+				</div> 
+				<!-- <div class="col-sm-7 banner-right wow fadeInRight animated" data-wow-delay=".5s">			
+					<!-- <section class="slider grid">
+						<div class="flexslider">
+							<ul class="slides">
+								<li>
+									<h4>-30%</h4>
+									<img src="images/b1.png" alt="">
+								</li>
+								<li>
+									<h4>-25%</h4>
+									<img src="images/b2.png" alt="">
+								</li>
+								<li>
+									<h4>-32%</h4>
+									<img src="images/b3.png" alt="">
+								</li>
+							</ul>
+						</div>
+					</section> -->
+					<!--FlexSlider-->
+					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "pagination",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+					</script>
+					<!--End-slider-script-->
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
 		</div>
-	</div>
-	<!--//breadcrumbs-->
-	<!--products-->
-	<div class="products">	 
+	</div>			
+	<!--//banner-->
+	<!--new-->
+	<div class="new">
 		<div class="container">
+			<div class="title-info wow fadeInUp animated" data-wow-delay=".5s">
+				<h3 class="title">Productos  <span> Nuevos</span></h3>
+				<p>Productos subidos recientemente  </p>
+			</div>
+			<div class="new-info">
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/g9.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
+						<p><span class="item_price">100$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="products.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
+					<a href="single.html"><img src="images/g10.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Pokemon Onesies</a></h5>
+						<p><span class="item_price">79$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
+					<a href="single.html"><img src="images/g11.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Doctor Play Set</a></h5>
+						<p><span class="item_price">30$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
+					<a href="single.html"><img src="images/g12.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Cap & Gloves Set</a></h5>
+						<p><span class="item_price">15$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>		
+	<!--//new-->
+	<!--gallery-->
+	<div class="gallery">
+		<div class="container">
+			<div class="title-info wow fadeInUp animated" data-wow-delay=".5s">
+				<h3 class="title">Productos<span> Populares</span></h3>
+				<p>Productos más vendidos</p>
+			</div>
 			<div class="gallery-info">
 				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
-					<a href="single.html"><img src="images/g9.jpg" class="img-responsive" alt=""/></a>
+					<a href="single.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
 						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
 						<p><span class="item_price">100$</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
-							<li><a href="products.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
-					<a href="single.html"><img src="images/g10.jpg" class="img-responsive" alt=""/></a>
+					<a href="single.html"><img src="images/g2.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
 						<h5><a class="name" href="single.html">Pokemon Onesies</a></h5>
 						<p><span class="item_price">79$</span></p>
@@ -303,12 +432,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
-					<a href="single.html"><img src="images/g11.jpg" class="img-responsive" alt=""/></a>
+					<a href="single.html"><img src="images/g3.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
 						<h5><a class="name" href="single.html">Doctor Play Set</a></h5>
 						<p><span class="item_price">30$</span></p>
@@ -316,12 +445,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
-					<a href="single.html"><img src="images/g12.jpg" class="img-responsive" alt=""/></a>
+					<a href="single.html"><img src="images/g4.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
 						<h5><a class="name" href="single.html">Cap & Gloves Set</a></h5>
 						<p><span class="item_price">15$</span></p>
@@ -329,173 +458,128 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
-					<a href="single.html"><img src="images/g9.jpg" class="img-responsive" alt=""/></a>
+					<a href="single.html"><img src="images/g5.jpg" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
-						<p><span class="item_price">100$</span></p>
+						<h5><a class="name" href="single.html">Full Sleeves Romper</a></h5>
+						<p><span class="item_price">60$</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
-							<li><a href="products.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
-					<a href="single.html"><img src="images/g10.jpg" class="img-responsive" alt=""/></a>
+					<a href="single.html"><img src="images/g6.png" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Pokemon Onesies</a></h5>
-						<p><span class="item_price">79$</span></p>
+						<h5><a class="name" href="single.html">Party Wear Frock</a></h5>
+						<p><span class="item_price">80$</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
-					<a href="single.html"><img src="images/g11.jpg" class="img-responsive" alt=""/></a>
+					<a href="single.html"><img src="images/g7.png" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Doctor Play Set</a></h5>
-						<p><span class="item_price">30$</span></p>
+						<h5><a class="name" href="single.html">Bear Diaper Bag</a></h5>
+						<p><span class="item_price">110$</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
-					<a href="single.html"><img src="images/g12.jpg" class="img-responsive" alt=""/></a>
+					<a href="single.html"><img src="images/g8.png" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Cap & Gloves Set</a></h5>
-						<p><span class="item_price">15$</span></p>
+						<h5><a class="name" href="single.html">Battery Police Bike</a></h5>
+						<p><span class="item_price">300$</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
 							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+							
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
-					<a href="single.html"><img src="images/g9.jpg" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
-						<p><span class="item_price">100$</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="products.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
-					<a href="single.html"><img src="images/g10.jpg" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Pokemon Onesies</a></h5>
-						<p><span class="item_price">79$</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
-					<a href="single.html"><img src="images/g11.jpg" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Doctor Play Set</a></h5>
-						<p><span class="item_price">30$</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
-					<a href="single.html"><img src="images/g12.jpg" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Cap & Gloves Set</a></h5>
-						<p><span class="item_price">15$</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
-					<a href="single.html"><img src="images/g9.jpg" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
-						<p><span class="item_price">100$</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="products.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
-					<a href="single.html"><img src="images/g10.jpg" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Pokemon Onesies</a></h5>
-						<p><span class="item_price">79$</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
-					<a href="single.html"><img src="images/g11.jpg" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Doctor Play Set</a></h5>
-						<p><span class="item_price">30$</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
-					<a href="single.html"><img src="images/g12.jpg" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Cap & Gloves Set</a></h5>
-						<p><span class="item_price">15$</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
-						</ul>
-					</div>
-				</div>
-					<div class="clearfix"></div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
-	<!--//products-->
+	<!--//gallery-->
+	<!--trend-->
+	<div class="trend wow zoomIn animated" data-wow-delay=".5s">
+		<div class="container">
+			<div class="trend-info">
+				<section class="slider grid">
+					<div class="flexslider trend-slider">
+						<ul class="slides">
+							<li>
+								<div class="col-md-5 trend-left">
+									<img src="images/t1.png" alt=""/>
+								</div>
+								<div class="col-md-7 trend-right">
+									<h4>DESCUENTOS EN ACCESORIOS DEPORTIVOS</span></h4>
+									<h5> 20% DE DESCUENTO</h5>
+									<p>Compra online de cascos, guantes e hidratación deportiva a precios bajos con envío a todo Colombia, Somos la mejor opción a la hora de comprar!</p>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<div class="col-md-5 trend-left">
+									<img src="images/t2.png" alt=""/>
+								</div>
+								<div class="col-md-7 trend-right">
+									<h4>DESCUENTOS EN CAMISAS DEPORTIVAS <span>¡PARA TI!</span></h4>
+									<h5>20% DE DESCUENTO</h5>
+									<p>Encuentra el estilo en camisetas deportivas que estás buscando y en las mejores marcas como ADIDAS, NIKE , PUMA , DIESEL y muchas más.</p>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<div class="col-md-5 trend-left">
+									<img src="images/t3.png" alt=""/>
+								</div>
+								<div class="col-md-7 trend-right">
+									<h4>DESCUENTOS EN CONJUNTOS FEMENINOS</span></h4>
+									<h5>20% DE DESCUENTO</h5>
+									<p>Compra online Conjuntos deportivos mujer con pantalones deportivos, crop top y más. Ahorra tiempo y dinero haciendo tus compras en Tienda Moderna.</p>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<div class="col-md-5 trend-left">
+									<img src="images/t4.png" alt=""/>
+								</div>
+								<div class="col-md-7 trend-right">
+									<h4>DESCUENTOS EN ZAPATOS DEPORTIVOS <span>¡PARA TI!</span></h4>
+									<h5>20% DE DESCUENTO </h5>
+									<p>¡Zapatillas deportivas tanto de hombre como de mujer con un descuento del 20%! Modelos de marcas como Adidas y Nike con unas rebajas inimaginables que harán que tengas el estilo que mereces. Comodidad y calidad a un precio más bajo imposible.</p>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!--//trend-->
 	<!--footer-->
-<div class="footer" style= " background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);">
+	<div class="footer" style= " background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+">
 		<div class="container">
 			<div class="footer-info">
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".5s">
@@ -506,10 +590,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h3  style = "color: #B2051F;"><strong>Popular</strong></h3>
 					<ul>
 						<li><a href="about.html"style = "color: white";><strong>Acerca de Nosotros</strong></a></li>
-				
+
 					<li><a href="contact.html"  style = "color: white;"><strong>Contáctanos</strong></a></li>
 						<li><a href="faq.html"  style = "color: white;"><strong>Preguntas Frecuentes</strong></a></li>
-			
+
 					</ul>
 				</div>
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".9s">
@@ -524,34 +608,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<!--//footer-->			
-	<!-- the jScrollPane script -->
-	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-			<script type="text/javascript" id="sourcecode">
-				$(function()
-				{
-					$('.scroll-pane').jScrollPane();
-				});
-			</script>
-	<!-- //the jScrollPane script -->
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<!-- the mousewheel plugin -->
+	<!--//footer-->		
 	<!--search jQuery-->
 	<script src="js/main.js"></script>
 	<!--//search jQuery-->
 	<!--smooth-scrolling-of-move-up-->
 	<script type="text/javascript">
 		$(document).ready(function() {
-		
+
 			var defaults = {
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
 				easingType: 'linear' 
 			};
-			
+
 			$().UItoTop({ easingType: 'easeOutQuart' });
-			
+
 		});
 	</script>
 	<!--//smooth-scrolling-of-move-up-->
@@ -559,5 +632,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     ================================================== -->
     <!--Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
-	</body>
+</body>
 </html>
