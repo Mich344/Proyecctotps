@@ -13,21 +13,13 @@ body a{
 	text-decoration:none;
 }
 
-.form_btn{
-    margin: 1rem;
-}
+.voci{
 
-.btn_audio{
-
-    padding: 2rem;
-    font-size: 20px;
-    border-radius: 1rem;
-    border: 1px solid red;
-    background: black;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 2;
-    cursor: pointer;
+ width: 5px;
+    height: 5px;
+    position: absolute;
+    top: ;
+	left: ; 
 }
 
 
