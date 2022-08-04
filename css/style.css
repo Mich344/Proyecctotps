@@ -16,6 +16,7 @@ body a{
 .btn_audio{
 	padding: 0;
 	margin: 0;
+	  margin-right:auto;
 
 	
 }
@@ -28,6 +29,8 @@ body a{
     height: 38px;
     cursor: pointer;
     float: right;
+	  margin-right:auto;
+	
 }
 	
 
