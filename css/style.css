@@ -67,7 +67,7 @@ body a:hover{
 }
 .top-header p,.top-header h2 {
     font-size: 0.9em;
-    color: #353F49;
+    color: #000000;
     line-height: 1.8em;
     margin-top: .3em;
     letter-spacing: 1px;
@@ -75,7 +75,7 @@ body a:hover{
 	font-family: 'Raleway', sans-serif;
 }
 .top-header p a,.top-header h2 a{
-    color: #33414e;
+    color: #000000;
     padding: 0 7px;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
