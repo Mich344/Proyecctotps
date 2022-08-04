@@ -22,7 +22,8 @@ body a{
     width: 38px;
     height: 38px;
     cursor: pointer;
-	padding-right: -1;
+    float: left;
+	top: 15px;
 }
 	
 
