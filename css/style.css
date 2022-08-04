@@ -16,11 +16,11 @@ body a{
 
 
 .voci{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;	
+    height: 3px;
+    width: 8px;
+
+    bottom: 14px;
+    right: 11px;	
 }
 
 
