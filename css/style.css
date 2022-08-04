@@ -16,8 +16,8 @@ body a{
 @media screen and (max-width:1000px) {
     .voci{
         /*--align-items: center;--*/
-        justify-content: right;
-        margin-right:10px 12px 12px 10px;
+        justify-content: center;
+        height:10px ;
 	 
 	    
     } } 
