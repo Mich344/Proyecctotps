@@ -56,7 +56,7 @@ body a:hover{
 	text-decoration:none;
 }
 /*--header--*/
-.navbar.navbar-default {
+.navbar-default {
     background: #fff;
     margin: 0;
     border-top: none;
@@ -251,8 +251,8 @@ ul.dropdown-menu.multi-column {
 	position: inherit;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #33414e;
-    font-size: 1.1em;
+    color: #000000;
+    font-size: 1.3em;
     padding: 1.2em 1.3em;
     font-weight: 500;
 	-webkit-transition:.5s all;
