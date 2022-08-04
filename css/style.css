@@ -143,7 +143,7 @@ body a:hover{
 }
 .header-two-left ul li {
     display: inline-block;
-    color: #33414e;
+    color: #000000;
     font-size: 1em;
     margin-right: 1.5em;
 }
@@ -177,7 +177,7 @@ body a:hover{
     text-decoration: none;
 }
 .logo h1 a b {
-    color: #353F49;
+    color: #000000;
 }
 span.tag {
     display: block;
