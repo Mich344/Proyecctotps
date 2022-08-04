@@ -16,7 +16,7 @@ body a{
 @media screen and (max-width:1000px) {
     .voci{
         /*--align-items: center;--*/
-        justify-content: center;
+        justify-content: right;
         margin-right:auto;
     } } 
 
