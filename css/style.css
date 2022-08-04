@@ -16,10 +16,10 @@ body a{
 
 
 .voci{
- width: 15px;
- height: 15px;	
- display: block;
-	padding-top: 5px;
+    margin: 15px;
+    width: 28px;
+    height: 28px;
+}
 	
 }
 
