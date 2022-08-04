@@ -67,6 +67,7 @@ $(window).load(function() {
 	<!--header-->
 	<div class="header">
 		<div class="top-header navbar navbar-default"><!--header-one-->
+			<a type="button" class="btn_audio" onclick="sound.play()"> <img src="images/n.12.jpg" class="voci" alt="sonido" title="Asistente de discapacidad visual"></a>
 			<div class="container">
 				<div class="nav navbar-nav wow fadeInLeft animated" data-wow-delay=".5s">
 					<p><strong> <a href="#" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.html"><strong>Registrarse</strong> </a> O <a href="signin.html"><strong>Ingresar </strong></a></p>
@@ -325,7 +326,7 @@ $(window).load(function() {
 							<input id="rating1" type="radio" name="rating" value="1">
 							<label for="rating1">1</label>
 						</span>
-						<p>Calificacion </p>
+						<p>5.00 out of 5</p>
 						<a href="#">Tu reseña</a>
 					</div>
 					<h6 class="item_price">$600.00</h6>			
@@ -520,6 +521,10 @@ $(window).load(function() {
 	<!--//footer-->			
 	<!--search jQuery-->
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		var sound = new Audio();
+		sound.src = "../images/Audio/AudioAcces.mp3"
+	</script>
 	<!--//search jQuery-->
 	<!--smooth-scrolling-of-move-up-->
 	<script type="text/javascript">
