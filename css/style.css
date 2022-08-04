@@ -292,7 +292,7 @@ ul.multi-column-dropdown:nth-child(3) {
 }
 .multi-column-dropdown li a {
     display: block;
-    color: #999;
+    color: #36404A;
     line-height: 2.5em;
     font-size: 1em;
 	-webkit-transition:.5s all;
@@ -302,7 +302,7 @@ ul.multi-column-dropdown:nth-child(3) {
 	-ms-transition:.5s all;
 }
 .multi-column-dropdown li a:hover {
-    color: #33414E;
+    color: #000000;
     font-weight: 500;
 }
 .multi-column-dropdown li h6 a {
