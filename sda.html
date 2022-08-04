@@ -1,8 +1,11 @@
 
+<!--https://www.iloveimg.com/ Primero redimensionar tamaño de imagen a 219x291 px 
+https://www.remove.bg remover fondo
+ -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang = "es">
 <head>
-<title>SportsWearLine - Carrito de compra</title>
+<title>SportsWearLine</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -14,6 +17,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--Custom Theme files -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <!--//Custom Theme files -->
 <!--js-->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -22,6 +26,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--cart-->
 <script src="js/simpleCart.min.js"></script>
 <!--cart-->
+<!--Libreria iconos rrss-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <!--web-fonts-->
 <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'><link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
@@ -30,38 +36,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--animation-effect-->
 <link href="css/animate.min.css" rel="stylesheet"> 
 <script src="js/wow.min.js"></script>
-<!--Libreria iconos redes sociales-->	
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<script>
- new WOW().init();
-</script>
+	<script>
+	 new WOW().init();
+	</script>
 <!--//animation-effect-->
-<!--close-button-->
-<script>$(document).ready(function(c) {
-	$('.alert-close').on('click', function(c){
-		$('.cart-header').fadeOut('slow', function(c){
-	  		$('.cart-header').remove();
-		});
-	});	  
-});
-</script>
-<script>$(document).ready(function(c) {
-	$('.alert-close1').on('click', function(c){
-		$('.cart-header1').fadeOut('slow', function(c){
-	  		$('.cart-header1').remove();
-		});
-	});	  
-});
-</script>
-<script>$(document).ready(function(c) {
-	$('.alert-close2').on('click', function(c){
-		$('.cart-header2').fadeOut('slow', function(c){
-	  		$('.cart-header2').remove();
-		});
-	});	  
-});
-</script>
-<!--//close-button-->
 <!--start-smooth-scrolling-->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>	
@@ -79,18 +57,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--header-->
 	<div class="header">
 		<div class="top-header navbar navbar-default"><!--header-one-->
-			<div class="container">
+			<a type="button" class="btn_audio" onclick="sound.play()"> <img src="images/altavoz.png" class="voci" alt="sonido" title="Asistente de discapacidad visual"></a>
+			<div class="container">				
 				<div class="nav navbar-nav wow fadeInLeft animated" data-wow-delay=".5s">
-					<p><strong> <a href="#" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.html"><strong>Registrarse</strong> </a> O <a href="signin.html"><strong>Ingresar </strong></a></p>
+					<p><strong> <a href="sda.html" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.html"><strong>Registrarse</strong> </a> O <a href="signin.html"><strong>Ingresar </strong></a></p>
 				</div>
 				<div class="redes-container">
 					<ul>
-						<li><a href="https://www.facebook.com/Sportswearline-103380179122013" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="https://www.instagram.com/sportswearline_/?hl=es" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
-						<li><a href="https://twitter.com/sportwearline" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="https://co.pinterest.com/sportwearline/" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li> 
+						<li><a href="https://www.facebook.com/Sportswearline-103380179122013" target="_blank" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.instagram.com/sportswearline_/?hl=es"  target="_blank" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://twitter.com/sportwearline" target="_blank" class="twitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://co.pinterest.com/sportwearline/" target="_blank" class="pinterest" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li> 
 					</ul>
-					</div>
+					</div>	
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -98,20 +77,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="nav navbar-nav header-two-left">
 					<ul>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"><a href="https://wa.link/hzuccw" target="_blank"></i><strong>Hablanos por WhatsApp</strong></a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"><a href="https://wa.link/hzuccw" target="_blank" style="border-radius:5%" ></i><strong>Escríbenos por WhatsApp</strong></a></li>
 						<br>
-						
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:sportwearline@gmail.com"><strong>Sportwearline</strong></a></li>			
+						<br>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:sportwearline@gmail.com"><strong>Sports wearline</strong></a></li>			
 					</ul>
 				</div>
 				<div class="nav navbar-nav logo wow zoomIn animated" data-wow-delay=".7s">
-					<h1><a href="index.html" style = "color: #B2051F">SPORTS<b>WEARLINE</b><span class="tag"> Vístete bien hoy tienes una cita con el deporte ¡Marca tu estilo!</span> </a></h1>
+					<h1><a href="index.html" style = "color: #B2051F">SPORTS<b>WEARLINE</b><span class="tag"><strong style="font-size: medium-large"> Vístete bien, hoy tienes una cita con el deporte ¡Marca tú estilo!</strong></span> </a></h1>
 				</div>
-				
+
 				<div class="nav navbar-nav navbar-right header-two-right">
 					<div class="header-right my-account">
 						<a href="contact.html"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> CONTÁCTANOS</a>
-						
+
 					</div>
 					<div class="header-right cart">
 						<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
@@ -140,9 +119,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</button>
 					</div>
 					<!--navbar-header-->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">		          
 						<ul class="nav navbar-nav top-nav-info">
 							<li class="dropdown">
+								
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mujeres<b class="caret"></b></a>
 								<ul class="dropdown-menu multi-column multi-column1">
 									<div class="row">
@@ -174,12 +154,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li><a class="list" href="products.html" style = "color:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);"><b>Gafas de sol</b></a></li>
 											</ul>
 										</div>
-									
+
 									<div class="col-sm-3 menu-grids">
 										<div class="ok">
-								
+
 												</div>	
-										
+
 										</div>	
 										<div class="clearfix"> </div>
 									</div>	
@@ -216,7 +196,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											</ul>
 										</div>
 										<div class="col-sm-3 menu-grids new-add2">
-										
+
 												<div class="lll">
 												</div>	
 										</div>
@@ -235,15 +215,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li><a class="list" href="products.html" style = "color:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);"><b>Zapatillas senderismo</b></a></li>
 												<li><a class="list" href="products.html" style = "color:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);"><b>Zapatillas Pronadoras</b></a></li>
 												<li><a class="list" href="products.html" style = "color:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);"><b>Zapatillas Cross Training</b></a></li>
-					
+
 											</ul>
 										</div>
 										<div class="col-sm-8 menu-grids">
-	
+
 												<div class="imag">
-								
+
 												</div>	
-										
+
 										</div>	
 										<div class="clearfix"> </div>
 									</div>	
@@ -256,7 +236,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="col-sm-4 menu-grids">
 											<ul class="multi-column-dropdown">
 												<h4>Accesorios</h4>
-											
+
 												<li><a class="list" href="products.html" style = "color:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);"><b>Cuerdas</b></a></li>
 												<li><a class="list" href="products.html" style = "color:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);"><b>Mancuernas</b></a></li>
 												<li><a class="list" href="products.html" style = "color:linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);"><b>Botellas</b></a></li>
@@ -264,11 +244,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											</ul>
 										</div>
 										<div class="col-sm-8 menu-grids">
-										
+
 												<div class="new-add">
 
 												</div>	
-										
+
 										</div>	
 										<div class="clearfix"> </div>
 									</div>	
@@ -293,86 +273,314 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!--//header-->
-	<!--breadcrumbs-->
-	<div class="breadcrumbs">
+	<!--banner-->
+	<div class="banner">
 		<div class="container">
-			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Inicio</a></li>
-				<li class="active">Carrito de compras</li>
-			</ol>
+			<div class="banner-text">			
+				 <div class="col-sm-5 banner-left wow fadeInLeft animated" data-wow-delay=".5s">			
+					 <h2>LO MÁS GRANDE DE LA MODA</h2>
+					<h3>PRÓXIMAMENTE! </h3>
+					<h4>¡NUESTROS NUEVOS DISEÑOS!</h4> 
+					<div class="count main-row">
+						 <ul id="example">
+							 <li><span class="hours">00</span><p class="hours_text">Horas</p></li>
+							<li><span class="minutes">00</span><p class="minutes_text">Minutos</p></li>
+							<li><span class="seconds">00</span><p class="seconds_text">Segundos</p></li>
+						</ul> 
+
+							<div class="clearfix"> </div>
+						 <marquee  behavior="scroll" direction="right">
+							<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+							<script type="text/javascript">
+								$('#example').countdown({
+									date: '12/24/2020 15:59:59',
+									offset: -8,
+									day: 'Day',
+									days: 'Days'
+								});
+							</script> 
+						</marquee> 
+					</div>
+
+				</div> 
+				<!-- <div class="col-sm-7 banner-right wow fadeInRight animated" data-wow-delay=".5s">			
+					<!-- <section class="slider grid">
+						<div class="flexslider">
+							<ul class="slides">
+								<li>
+									<h4>-30%</h4>
+									<img src="images/b1.png" alt="">
+								</li>
+								<li>
+									<h4>-25%</h4>
+									<img src="images/b2.png" alt="">
+								</li>
+								<li>
+									<h4>-32%</h4>
+									<img src="images/b3.png" alt="">
+								</li>
+							</ul>
+						</div>
+					</section> -->
+					<!--FlexSlider-->
+					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "pagination",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+					</script>
+					<!--End-slider-script-->
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>			
+	<!--//banner-->
+	<!--new-->
+	<div class="new">
+		<div class="container">
+			<div class="title-info wow fadeInUp animated" data-wow-delay=".5s">
+				<h3 class="title">Productos  <span> Nuevos</span></h3>
+				<p>Productos subidos recientemente  </p>
+			</div>
+			<div class="new-info">
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/g9.png" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
+						<p><span class="item_price">100$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="products.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
+					<a href="single.html"><img src="images/g10.png" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Pokemon Onesies</a></h5>
+						<p><span class="item_price">79$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
+					<a href="single.html"><img src="images/g11.png" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Doctor Play Set</a></h5>
+						<p><span class="item_price">30$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
+					<a href="single.html"><img src="images/g12.png" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Cap & Gloves Set</a></h5>
+						<p><span class="item_price">15$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>		
+	<!--//new-->
+	<!--gallery-->
+	<div class="gallery">
+		<div class="container">
+			<div class="title-info wow fadeInUp animated" data-wow-delay=".5s">
+				<h3 class="title">Productos<span> Populares</span></h3>
+				<p>Productos más vendidos</p>
+			</div>
+			<div class="gallery-info">
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Baby Girls' Dress </a></h5>
+						<p><span class="item_price">100$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
+					<a href="single.html"><img src="images/g2.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Pokemon Onesies</a></h5>
+						<p><span class="item_price">79$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
+					<a href="single.html"><img src="images/g3.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Doctor Play Set</a></h5>
+						<p><span class="item_price">30$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
+					<a href="single.html"><img src="images/g4.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Cap & Gloves Set</a></h5>
+						<p><span class="item_price">15$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/g5.jpg" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Full Sleeves Romper</a></h5>
+						<p><span class="item_price">60$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
+					<a href="single.html"><img src="images/g6.png" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Party Wear Frock</a></h5>
+						<p><span class="item_price">80$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
+					<a href="single.html"><img src="images/g7.png" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Bear Diaper Bag</a></h5>
+						<p><span class="item_price">110$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
+					<a href="single.html"><img src="images/g8.png" class="img-responsive" alt=""/></a>
+					<div class="gallery-text simpleCart_shelfItem">
+						<h5><a class="name" href="single.html">Battery Police Bike</a></h5>
+						<p><span class="item_price">300$</span></p>
+						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
 		</div>
 	</div>
-	<!--//breadcrumbs-->
-	<!--cart-items-->
-	<div class="cart-items">
+	<!--//gallery-->
+	<!--trend-->
+	<div class="trend wow zoomIn animated" data-wow-delay=".5s">
 		<div class="container">
-			<h3 class="wow fadeInUp animated" data-wow-delay=".5s">Mi carrito de compras</h3>
-			<div class="cart-header wow fadeInUp animated" data-wow-delay=".5s">
-				<div class="alert-close"> </div>
-				<div class="cart-sec simpleCart_shelfItem">
-					<div class="cart-item cyc">
-						<a href="single.html"><img src="images/g1.jpg" class="img-responsive" alt=""></a>
-					</div>
-					<div class="cart-item-info">
-						<h4><a href="single.html"> Buzo con capucha Badge of Sport Felpa </a></h4>
-						<ul class="qty">
-							
-							
+			<div class="trend-info">
+				<section class="slider grid">
+					<div class="flexslider trend-slider">
+						<ul class="slides">
+							<li>
+								<div class="col-md-5 trend-left">
+									<img src="images/t1.png" alt=""/>
+								</div>
+								<div class="col-md-7 trend-right">
+									<h4>DESCUENTOS EN ACCESORIOS DEPORTIVOS</span></h4>
+									<h5> 20% DE DESCUENTO</h5>
+									<p>Compra online de cascos, guantes e hidratación deportiva a precios bajos con envío a todo Colombia, Somos la mejor opción a la hora de comprar!</p>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<div class="col-md-5 trend-left">
+									<img src="images/t2.png" alt=""/>
+								</div>
+								<div class="col-md-7 trend-right">
+									<h4>DESCUENTOS EN CAMISAS DEPORTIVAS <span>¡PARA TI!</span></h4>
+									<h5>20% DE DESCUENTO</h5>
+									<p>Encuentra el estilo en camisetas deportivas que estás buscando y en las mejores marcas como ADIDAS, NIKE , PUMA , DIESEL y muchas más.</p>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<div class="col-md-5 trend-left">
+									<img src="images/t3.png" alt=""/>
+								</div>
+								<div class="col-md-7 trend-right">
+									<h4>DESCUENTOS EN CONJUNTOS FEMENINOS</span></h4>
+									<h5>20% DE DESCUENTO</h5>
+									<p>Compra online Conjuntos deportivos mujer con pantalones deportivos, crop top y más. Ahorra tiempo y dinero haciendo tus compras en Tienda Moderna.</p>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<div class="col-md-5 trend-left">
+									<img src="images/t4.png" alt=""/>
+								</div>
+								<div class="col-md-7 trend-right">
+									<h4>DESCUENTOS EN ZAPATOS DEPORTIVOS <span>¡PARA TI!</span></h4>
+									<h5>20% DE DESCUENTO </h5>
+									<p>¡Zapatillas deportivas tanto de hombre como de mujer con un descuento del 20%! Modelos de marcas como Adidas y Nike con unas rebajas inimaginables que harán que tengas el estilo que mereces. Comodidad y calidad a un precio más bajo imposible.</p>
+								</div>
+								<div class="clearfix"></div>
+							</li>
 						</ul>
-						<div class="delivery">
-							<p>Valor de entrega  : $10.000</p>
-							<span>Delivered in 1-1:30 hours</span>
-							<div class="clearfix"></div>
-						</div>	
 					</div>
-					<div class="clearfix"></div>
-				</div>
+				</section>
 			</div>
-			<div class="cart-header1 wow fadeInUp animated" data-wow-delay=".7s">
-				<div class="alert-close1"> </div>
-				<div class="cart-sec simpleCart_shelfItem">
-					<div class="cart-item cyc">
-						<a href="single.html"><img src="images/g5.jpg" class="img-responsive" alt=""></a>
-					</div>
-					<div class="cart-item-info">
-						<h4><a href="single.html"> camiseta 3 rayas Essentials. </a></h4>
-						<ul class="qty">
-							
-							
-						</ul>
-						<div class="delivery">
-						<p>Valor de Entrega : $10.000</p>
-						<span>Delivered in 1-1:30 hours</span>
-						<div class="clearfix"></div>
-					</div>	
-				   </div>
-				   <div class="clearfix"></div>
-				</div>
-			</div>
-			<div class="cart-header2 wow fadeInUp animated" data-wow-delay=".9s">
-				<div class="alert-close2"> </div>
-				<div class="cart-sec simpleCart_shelfItem">
-					<div class="cart-item cyc">
-						<a href="single.html"><img src="images/g9.jpg" class="img-responsive" alt=""></a>
-					</div>
-					<div class="cart-item-info">
-						<h4><a href="single.html"> Camisa Graphic Badge of Sport </a></h4>
-						<ul class="qty">
-							
-							
-						</ul>
-						<div class="delivery">
-							<p>Valor de Entrega : $10.000</p>
-							<span>Delivered in 1-1:30 hours</span>
-							<div class="clearfix"></div>
-						</div>	
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>		
 		</div>
 	</div>
-	<!--//cart-items-->	
+	<!--//trend-->
 	<!--footer-->
 	<div class="footer" style= " background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 ">
@@ -380,7 +588,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="footer-info">
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".5s">
 					<h4 class="footer-logo"><a href="index.html" style = "color: #B2051F";>SPORTS <b style = "color: white;">WEARLINE</b> <span class="tag"> </span> </a></h4>
-					<p style = "color: white";><strong>SPORTSWEARLINE Vístete bien hoy tienes una cita con el deporte ¡Marca tu estilo! </strong></p>
+					<p style = "color: white";><strong>© SPORTSWEARLINE. Vístete bien, hoy tienes una cita con el deporte ¡Marca tú estilo!</strong></p>
 				</div>
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".7s">
 					<h3  style = "color: #B2051F;"><strong>Popular</strong></h3>
@@ -396,7 +604,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h2 style = "color: #B2051F";><strong>Suscribirse</strong></h2>
 					<p  style = "color: white;">Registrate para más información <br> Acerca de nuestra compañía </p>
 					<form>
-						<input type="text" placeholder="Ingresa tu correo" required="Error">
+						<input type="text" placeholder="Ingresa tú correo" required="Error">
 						<input   style = "color: black" type="submit" value="Enviar">
 					</form>
 				</div>
@@ -404,23 +612,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<!--//footer-->			
+	<!--//footer-->		
 	<!--search jQuery-->
 	<script src="js/main.js"></script>
+   <script src="js/app.js"></script>
 	<!--//search jQuery-->
 	<!--smooth-scrolling-of-move-up-->
 	<script type="text/javascript">
 		$(document).ready(function() {
-		
+
 			var defaults = {
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
 				easingType: 'linear' 
 			};
-			
+
 			$().UItoTop({ easingType: 'easeOutQuart' });
-			
+
 		});
 	</script>
 	<!--//smooth-scrolling-of-move-up-->
@@ -428,5 +637,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     ================================================== -->
     <!--Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
