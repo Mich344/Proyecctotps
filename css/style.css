@@ -656,7 +656,7 @@ h3.title{
     color: #B2051F;
 }
 h3.title span {
-    color: #353f49;
+    color: #000000;
 }
 .title-info p {
     font-size: 1em;
@@ -835,7 +835,7 @@ h3.title span {
 	text-decoration:none;
 }
 .footer-grids h4 a b {
-    color: #353F49;
+    color: #000000;
 }
 .footer-grids h3 {
     font-size: 3em;
@@ -943,7 +943,7 @@ h3.title span {
     display: inline-block;
 }
 .new-bottom h5 a.name {
-    color: #353f49;
+    color: #000000;
 }
 .new-bottom h5 a.name:hover {
     color: #FF590F;
@@ -1018,7 +1018,7 @@ h3.title span {
 /*--breadcrumbs--*/
 .breadcrumbs {
     padding: 1.5em 0;
-    background: #353F49;
+    background: #000000;
     text-align: center;
 }
 .breadcrumb {
@@ -1106,7 +1106,7 @@ input.item_quantity:hover{
 }
 .rsidebar h4 {
     font-size: 1.2em;
-    color: #353F49;
+    color: #000000;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -1118,7 +1118,7 @@ input.item_quantity:hover{
     cursor: pointer;
     line-height: initial;
     font-size: 1em;
-    color: #353F49;
+    color: #000000;
     font-weight: 500;
         margin: 0 0 1.5em;
 }
@@ -1291,12 +1291,12 @@ input#amount {
 .rsidebar .gallery-text h4.sizes {
     font-family: 'Pompiere', cursive;
     font-size: 1.4em;
-    color: #353F49;
+    color: #000000;
     text-transform: inherit;
 }
 .rsidebar .gallery-grid  h6 {
     font-size: 1.2em;
-    color: #353F49;
+    color: #000000;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     margin-bottom: 1em;
@@ -1560,7 +1560,7 @@ h4.panel-title a {
 /*--//placeholder--*/
 .login-page label.checkbox {
     font-size: 1em;
-    color: #353F49;
+    color: #000000;
     display: inline-block;
     float: left;
 }
@@ -1572,7 +1572,7 @@ h4.panel-title a {
 }
 .forgot a {
     font-size: 1em;
-    color: #353F49;
+    color: #000000;
     display: block;
     font-weight: 500;
 }
@@ -1624,7 +1624,7 @@ h4.panel-title a {
 }
 .login-page-bottom h5 {
     font-size: 1.5em;
-    color: #353F49;
+    color: #000000;
     font-weight: 800;
     margin: 1em 0;
     font-family: 'Raleway', sans-serif;
@@ -1777,7 +1777,7 @@ h4.panel-title a {
     margin-bottom: 0.8em;
 }
 .cart-item-info h4 a {
-    color: #353F49;
+    color: #000000;
 }
 .cart-item-info h4 a:hover{
     color: #FF590F;
@@ -1832,7 +1832,7 @@ ul.qty li{
 }
 ul.qty li p {
     font-size: 1em;
-    color: #353F49;
+    color: #000000;
     font-weight: 500;
 }
 /*--//checkout--*/
