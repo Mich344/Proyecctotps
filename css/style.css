@@ -15,8 +15,7 @@ body a{
 
 @media screen and (max-width:1000px) {
     .voci{
-	    align-items: center;
-    float: right;
+	    align-items: ;
 
 
 
@@ -32,6 +31,8 @@ body a{
  position: absolute;
  top:16px;
  cursor: pointer;
+ padding-top: -5px;
+	
 
 	
 }
