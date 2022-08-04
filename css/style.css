@@ -18,11 +18,10 @@ body a{
 .voci{
 
     font-size: 20px;
-    margin: 15px;
+    margin: 10px;
     width: 28px;
     height: 28px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+
     cursor: pointer;
 }
 	
