@@ -292,7 +292,7 @@ ul.multi-column-dropdown:nth-child(3) {
 }
 .multi-column-dropdown li a {
     display: block;
-    color: #36404A;
+    color: #4E5A69;
     line-height: 2.5em;
     font-size: 1em;
 	-webkit-transition:.5s all;
@@ -2495,7 +2495,7 @@ ul.dropdown-menu.multi-column.multi-column1 .menu-grids:nth-child(3) {
     letter-spacing: 0px;
 }
 .header-right a {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 .header-two .navbar-nav {
     width: 32%;
