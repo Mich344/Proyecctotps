@@ -1,2 +1,2 @@
 var sound = new Audio();
-sound.src = "./AudioAcces.mp3"
+sound.src = "../images/Audio/AudioAcces.mp3"
