@@ -1378,12 +1378,12 @@ input#amount {
 }
 .single-rating a:before {
     padding: 0 8px;
-    color: #353F49;
+    color: #000000;
     content: "/\00a0";
 }
 .single-info h6 {
     font-size: 2em;
-    color: #353F49;
+    color: #000000;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
 }
@@ -1434,7 +1434,7 @@ input#amount {
 .single-top-left ul.color li a {
     width: 12px;
     height: 12px;
-    background: #383897;
+    background: #b2051f;
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 	-moz-border-radius: 50%;
