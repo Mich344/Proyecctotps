@@ -16,11 +16,13 @@ body a{
 
 
 .voci{
-   position: relative;
-    display: block;
-    width: 44px;
-    height: 44px;
-	cursor: pointer;
+      padding: 2rem;
+    font-size: 20px;
+
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2;
+    cursor: pointer;
 }
 	
 }
