@@ -19,11 +19,9 @@ body a{
 
  width: 35px;
  height: 35px;
- position: absolute;
+ position: relative;
  top: 10px;
  cursor: pointer;
-margin: 5px;
-
 	
 
 	
