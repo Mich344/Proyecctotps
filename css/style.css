@@ -328,6 +328,7 @@ ul.multi-column-dropdown:nth-child(3) {
     background:url(../images/R.jpg)no-repeat center;
     background-size: cover;
     min-height: 210px;
+    margin-right: auto;
 }
 .new-add {
     background:url(../images/img2.jpg)no-repeat center;
