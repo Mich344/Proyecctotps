@@ -327,6 +327,7 @@ ul.multi-column-dropdown:nth-child(3) {
 .lll {
     background:url(../images/R.jpg)no-repeat center;
     background-size: cover;
+    padding-top:right;	
     min-height: 210px;
 }
 .new-add {
