@@ -461,7 +461,7 @@ ul.multi-column-dropdown:nth-child(3) {
 	content: '';
 	position: absolute;
 	display: inline-block;
-	height: 50%;
+	height: 3px;
 	width: 22px;
 	top: 50%;
 	margin-top: -2px;
