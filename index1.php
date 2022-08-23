@@ -84,7 +84,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 					</div>
 				<div class="nav navbar-nav logo wow zoomIn animated" data-wow-delay=".7s">
-					<h1><a href="index.html" style="color: #B2051F">SPORTS<b>WEARLINE</b><span class="tag"><strong> Vístete bien, hoy tienes una cita con el deporte ¡Marca tú estilo!</strong></span></a></h1>
+					<h1><a href="index1.php" style="color: #B2051F">SPORTS<b>WEARLINE</b><span class="tag"><strong> Vístete bien, hoy tienes una cita con el deporte ¡Marca tú estilo!</strong></span></a></h1>
 				</div>
 
 				<div class="nav navbar-nav navbar-right header-two-right">
@@ -567,7 +567,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="footer-info">
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".5s">
-					<h4 class="footer-logo"><a href="index.html" style = "color: #B2051F" >SPORTS <b style = "color: white">WEARLINE</b> <span class="tag"> </span> </a></h4>
+					<h4 class="footer-logo"><a href="index1.php" style = "color: #B2051F" >SPORTS <b style = "color: white">WEARLINE</b> <span class="tag"> </span> </a></h4>
 					<p style = "color: white"><strong>© SPORTSWEARLINE. Vístete bien, hoy tienes una cita con el deporte ¡Marca tú estilo!</strong></p>
 				</div>
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".7s">
