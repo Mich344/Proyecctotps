@@ -57,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<a class="btn_audio" onclick="sound.play()"> <img src="images/n.12.jpg" class="voci" alt="sonido" title="Asistente de discapacidad visual"></a>
 			<div class="container">				
 				<div class="nav navbar-nav wow fadeInLeft animated" data-wow-delay=".5s">
-					<p><strong> <a href="sda.html" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.html"><strong>Registrarse</strong> </a> O <a href="signin.html"><strong>Ingresar </strong></a></p>
+					<p><strong> <a href="sda.php" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.php"><strong>Registrarse</strong> </a> O <a href="signin.php"><strong>Ingresar </strong></a></p>
 				</div>
 				<div class="redes-container">
 					<ul>
@@ -82,17 +82,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 					</div>
 				<div class="nav navbar-nav logo wow zoomIn animated" data-wow-delay=".7s">
-					<h1><a href="index.html" style="color: #B2051F">SPORTS<b>WEARLINE</b><span class="tag"><strong> Vístete bien, hoy tienes una cita con el deporte ¡Marca tú estilo!</strong></span></a></h1>
+					<h1><a href="index1.php" style="color: #B2051F">SPORTS<b>WEARLINE</b><span class="tag"><strong> Vístete bien, hoy tienes una cita con el deporte ¡Marca tú estilo!</strong></span></a></h1>
 				</div>
 
 				<div class="nav navbar-nav navbar-right header-two-right">
 					<div class="header-right my-account">
-						<a href="contact.html"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> CONTÁCTANOS</a>
+						<a href="contact.php"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> CONTÁCTANOS</a>
 
 					</div>
 					<div class="header-right cart">
 						<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
-						<h4><a href="checkout.html">
+						<h4><a href="checkout.php">
 								<span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>) 
 						</a></h4>
 						<div class="cart-box">
@@ -126,17 +126,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="col-sm-4 menu-grids menulist1">
 											<h4>PRENDAS SUPERIORES</h4>
 											<ul class="multi-column-dropdown ">
-												<li><a class="list" href="mujer/camisamlarga.html"><b>Manga larga</b></a></li>
-												<li><a class="list" href="mujer/camisamcorta.html"><b>Manga corta</b></a></li>
-												<li><a class="list" href="mujer/sinmanga.html"><b>Sin mangas</b></a></li>
+												<li><a class="list" href="mujer/camisamlarga.php"><b>Manga larga</b></a></li>
+												<li><a class="list" href="mujer/camisamcorta.php"><b>Manga corta</b></a></li>
+												<li><a class="list" href="mujer/sinmanga.php"><b>Sin mangas</b></a></li>
 												
 											</ul>
 										</div>																		
 										<div class="col-sm-2 menu-grids">
 											<h4>PRENDAS INFERIORES</h4>
 											<ul class="multi-column-dropdown">
-												<li><a class="list" href="mujer/pantalonesm.html"><b>Pantalones</b></a></li>
-												<li><a class="list" href="mujer/shorts.html"><b>Shorts</b></a></li>
+												<li><a class="list" href="mujer/pantalonesm.php"><b>Pantalones</b></a></li>
+												<li><a class="list" href="mujer/shorts.php"><b>Shorts</b></a></li>
 											</ul>
 										</div>
 										
@@ -158,17 +158,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="col-sm-3 menu-grids">
 											<h4>PRENDAS SUPERIORES</h4>
 											<ul class="multi-column-dropdown">
-												<li><a class="list" href="hombre/camisamg.html"><b>Manga larga</b></a></li>
-												<li><a class="list" href="hombre/camisamc.html"><b>Manga corta</b></a></li>
-									                        <li><a class="list" href="hombre/camisasm.html"><b>Sin mangas</b></a></li>
+												<li><a class="list" href="hombre/camisamg.php"><b>Manga larga</b></a></li>
+												<li><a class="list" href="hombre/camisamc.php"><b>Manga corta</b></a></li>
+									                        <li><a class="list" href="hombre/camisasm.php"><b>Sin mangas</b></a></li>
 												
 											</ul>
 										</div>																		
 										<div class="col-sm-3 menu-grids">
 											<h4>PRENDAS INFERIORES</h4>
 											<ul class="multi-column-dropdown">
-												<li><a class="list" href="hombre/sudadera.html"><b>Pantalones</b></a></li>											
-												<li><a class="list" href="hombre/bermuda.html"><b>Bermudas</b></a></li>	
+												<li><a class="list" href="hombre/sudadera.php"><b>Pantalones</b></a></li>											
+												<li><a class="list" href="hombre/bermuda.php"><b>Bermudas</b></a></li>	
 											</ul>
 										</div>
 										<div class="col-sm-3 menu-grids">
@@ -191,8 +191,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="col-sm-4 menu-grids">
 											<ul class="multi-column-dropdown">
 												<h4>Zapatillas</h4>
-												<li><a class="list" href="zapatillas/zapatillaspc.html"><b>Correr</b></a></li>
-												<li><a class="list" href="zapatillas/zapatillassd.html"><b>Senderismo</b></a></li>
+												<li><a class="list" href="zapatillas/zapatillaspc.php"><b>Correr</b></a></li>
+												<li><a class="list" href="zapatillas/zapatillassd.php"><b>Senderismo</b></a></li>
 												
 											</ul>
 										</div>
@@ -215,10 +215,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<ul class="multi-column-dropdown">
 												<h4>Accesorios</h4>
 
-												<li><a class="list" href="products.html"><b>Cuerdas</b></a></li>
-												<li><a class="list" href="products.html"><b>Mancuernas</b></a></li>
-												<li><a class="list" href="products.html"><b>Botellas</b></a></li>
-												<li><a class="list" href="products.html"><b>Guantes</b></a></li>
+												<li><a class="list" href="products.php"><b>Cuerdas</b></a></li>
+												<li><a class="list" href="products.php"><b>Mancuernas</b></a></li>
+												<li><a class="list" href="products.php"><b>Botellas</b></a></li>
+												<li><a class="list" href="products.php"><b>Guantes</b></a></li>
 											</ul>
 										</div>
 										<div class="col-sm-8 menu-grids">
@@ -260,7 +260,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="widget-shadow">
 			<div class="login-top wow fadeInUp animated" data-wow-delay=".7s">
-				<h4><span id="signo">¡</span><b>Bienvenido a SportsWearLine</b><span id="signo">!</span> <br> <span id="signo">¿</span><b>No eres usuario</b><span id="signo">?</span> <a href="register.html"> Registrate Ahora</a> </h4>
+				<h4><span id="signo">¡</span><b>Bienvenido a SportsWearLine</b><span id="signo">!</span> <br> <span id="signo">¿</span><b>No eres usuario</b><span id="signo">?</span> <a href="register.php"> Registrate Ahora</a> </h4>
 			</div>
 			<div class="login-body wow fadeInUp animated" data-wow-delay=".7s">
 				<form>
@@ -284,16 +284,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="footer-info">
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".5s">
-					<h4 class="footer-logo"><a href="index.html" style = "color: #B2051F">SPORTS <b style = "color: white">WEARLINE</b> <span class="tag"> </span> </a></h4>
+					<h4 class="footer-logo"><a href="index1.php" style = "color: #B2051F">SPORTS <b style = "color: white">WEARLINE</b> <span class="tag"> </span> </a></h4>
 					<p style = "color: white"><strong>© SPORTSWEARLINE. El mejor contenido para el deporte.</strong></p>
 				</div>
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".7s">
 					<h3  style = "color: #B2051F"><strong>Popular</strong></h3>
 					<ul>
-						<li><a href="about.html" style = "color: white"><strong>Acerca de Nosotros</strong></a></li>
+						<li><a href="about.php" style = "color: white"><strong>Acerca de Nosotros</strong></a></li>
 				
-					<li><a href="contact.html"  style = "color: white"><strong>Contáctanos</strong></a></li>
-						<li><a href="faq.html"  style = "color: white"><strong>Preguntas Frecuentes</strong></a></li>
+					<li><a href="contact.php"  style = "color: white"><strong>Contáctanos</strong></a></li>
+						<li><a href="faq.php"  style = "color: white"><strong>Preguntas Frecuentes</strong></a></li>
 			
 					</ul>
 				</div>
