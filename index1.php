@@ -330,58 +330,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Productos subidos recientemente  </p>
 			</div>
 			<div class="new-info">
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
-					<a href="single.html"><img src="images/g9.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Camisa Desing </a></h5>
-						<p><span class="item_price">$70.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
-					<a href="single.html"><img src="images/g10.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Licra deportiva </a></h5>
-						<p><span class="item_price">$55.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
-					<a href="single.html"><img src="images/g11.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Tenis Negros</a></h5>
-						<p><span class="item_price">$250.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
-					<a href="single.html"><img src="images/g12.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Camisa solar</a></h5>
-						<p><span class="item_price">$65.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
+				<!-- INCLUIMOS LA BASE DE DATOS AL INDEX -->
+				<?php 	include_once "Basedata.php";
+				/*CONECTA LA BASE DE DATOS (BASEDATA) CON EL LOCALHOST, USUARIO, CONTRASEÑA Y DB*/
+					$con = mysqli_connect($host, $user, $pasword, $db);
+					/* UTILIZA UN REQUERIMIENTO DONDE SE VA A SELECCIONAR TODOS LOS PRODUCTOS CON SU ID, NOMBRE, PRECIO Y CANTIDAD DE LA TABLA PRODUCTOS  */
+					$query = "SELECT p.Id, p.Nombre, p.Precio, p.Cantidad, f.web_path FROM productos AS p INNER JOIN productos_files AS pf ON pf.producto_id=p.Id INNER JOIN files AS f ON f.id=pf.file_id GROUP BY p.Id;";
+					/* DA UNA RESPUESTA CON EL MYSQL CON LOS REQUERIMIENTOS Y LA CONEXION */
+					$res = mysqli_query($con, $query);
+					while($row = mysqli_fetch_assoc($res)){
+					 	?>
+						<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
+							<a href="single.html"><img src="<?php echo $row['web_path'] ?>" class="img-responsive" alt=""/></a>
+							<div class="gallery-text simpleCart_shelfItem">
+								<h5><a class="name" href="single.php"> <?php echo $row['Nombre'] ?> </a></h5>
+					 			<p><span class="item_price"><?php echo $row['Precio'] ?></span></p>
+								<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
+								<ul>
+									<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+									<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+									<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					 		<?php
+					 		}
+					  ?>
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
