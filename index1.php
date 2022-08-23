@@ -59,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<a class="btn_audio" onclick="sound.play()"> <img src="images/n.12.jpg" class="voci" alt="sonido" title="Asistente de discapacidad visual"></a>
 			<div class="container">				
 				<div class="nav navbar-nav wow fadeInLeft animated" data-wow-delay=".5s">
-					<p><strong> <a href="sda.html" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.html"><strong>Registrarse</strong> </a> O <a href="signin.html"><strong>Ingresar </strong></a></p>
+					<p><strong> <a href="sda.php" style = "color: #B2051F ">SPORTS</a>WEARLINE</strong>|<a href="register.php"><strong>Registrarse</strong> </a> O <a href="signin.php"><strong>Ingresar </strong></a></p>
 				</div>
 				<div class="redes-container">
 					<ul>
@@ -89,7 +89,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 				<div class="nav navbar-nav navbar-right header-two-right">
 					<div class="header-right my-account">
-						<a href="contact.html"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><strong>CONTÁCTANOS</strong></a>
+						<a href="contact.php"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><strong>CONTÁCTANOS</strong></a>
 
 					</div>
 					<div class="header-right cart">
@@ -341,7 +341,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					while($row = mysqli_fetch_assoc($res)){
 					 	?>
 						<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
-							<a href="single.html"><img src="<?php echo $row['web_path'] ?>" class="img-responsive" alt=""/></a>
+							<a href="single.php"><img src="<?php echo $row['web_path'] ?>" class="img-responsive" alt=""/></a>
 							<div class="gallery-text simpleCart_shelfItem">
 								<h5><a class="name" href="single.php"> <?php echo $row['Nombre'] ?> </a></h5>
 					 			<p><span class="item_price"><?php echo $row['Precio'] ?></span></p>
@@ -371,20 +371,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="gallery-info">
 				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
-					<a href="single.html" title="Informacion del producto"><img src="images/g1.png" class="img-responsive" alt=""/></a>
+					<a href="single.php" title="Informacion del producto"><img src="images/g1.png" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Camisa under</a></h5>
+						<h5><a class="name" href="single.php">Camisa under</a></h5>
 						<p><span class="item_price">$70.000</span></p>
 						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+							<li><a href="single.php" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
 							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
 							
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
-					<a href="single.html" title="Informacion del producto"><img src="images/g2.png" class="img-responsive" alt=""/></a>
+					<a href="single.php" title="Informacion del producto"><img src="images/g2.png" class="img-responsive" alt=""/></a>
 					<div class="gallery-text simpleCart_shelfItem">
 						<h5><a class="name" href="single.html">Pantaloneta NB</a></h5>
 						<p><span class="item_price">$85.000</span></p>
@@ -548,10 +548,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".7s">
 					<h3  style = "color: #B2051F;"><strong>Popular</strong></h3>
 					<ul>
-						<li><a href="about.html" style="color: white"><strong>Acerca de Nosotros</strong></a></li>
+						<li><a href="about.php" style="color: white"><strong>Acerca de Nosotros</strong></a></li>
 
-					<li><a href="contact.html" style="color: white;"><strong>Contáctanos</strong></a></li>
-						<li><a href="faq.html"  style="color: white"><strong>Preguntas Frecuentes</strong></a></li>
+					<li><a href="contact.php" style="color: white;"><strong>Contáctanos</strong></a></li>
+						<li><a href="faq.php"  style="color: white"><strong>Preguntas Frecuentes</strong></a></li>
 
 					</ul>
 				</div>
