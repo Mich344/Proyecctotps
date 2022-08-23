@@ -94,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="header-right cart">
 						<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
-						<h4><a href="checkout.html">
+						<h4><a href="checkout.php">
 								<span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>) 
 						</a></h4>
 						<div class="cart-box">
@@ -128,17 +128,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="col-sm-4 menu-grids menulist1">
 											<h4>PRENDAS SUPERIORES</h4>
 											<ul class="multi-column-dropdown ">
-												<li><a class="list" href="mujer/camisamlarga.html"><b>Manga larga</b></a></li>
-												<li><a class="list" href="mujer/camisamcorta.html"><b>Manga corta</b></a></li>
-												<li><a class="list" href="mujer/sinmanga.html"><b>Sin mangas</b></a></li>
+												<li><a class="list" href="mujer/camisamlarga.php"><b>Manga larga</b></a></li>
+												<li><a class="list" href="mujer/camisamcorta.php"><b>Manga corta</b></a></li>
+												<li><a class="list" href="mujer/sinmanga.php"><b>Sin mangas</b></a></li>
 												
 											</ul>
 										</div>																		
 										<div class="col-sm-2 menu-grids">
 											<h4>PRENDAS INFERIORES</h4>
 											<ul class="multi-column-dropdown">
-												<li><a class="list" href="mujer/pantalonesm.html"><b>Pantalones</b></a></li>
-												<li><a class="list" href="mujer/shorts.html"><b>Shorts</b></a></li>
+												<li><a class="list" href="mujer/pantalonesm.php"><b>Pantalones</b></a></li>
+												<li><a class="list" href="mujer/shorts.php"><b>Shorts</b></a></li>
 											</ul>
 										</div>
 									
@@ -163,17 +163,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="col-sm-3 menu-grids">
 											<h4>PRENDAS SUPERIORES</h4>
 											<ul class="multi-column-dropdown">
-												<li><a class="list" href="hombre/camisamg.html"><b>Manga larga</b></a></li>
-												<li><a class="list" href="hombre/camisamc.html"><b>Manga corta</b></a></li>
-									                        <li><a class="list" href="hombre/camisasm.html"><b>Sin mangas</b></a></li>
+												<li><a class="list" href="hombre/camisamg.php"><b>Manga larga</b></a></li>
+												<li><a class="list" href="hombre/camisamc.php"><b>Manga corta</b></a></li>
+									                        <li><a class="list" href="hombre/camisasm.php"><b>Sin mangas</b></a></li>
 												
 											</ul>
 										</div>																		
 										<div class="col-sm-3 menu-grids">
 											<h4>PRENDAS INFERIORES</h4>
 											<ul class="multi-column-dropdown">
-												<li><a class="list" href="hombre/sudadera.html"><b>Pantalones</b></a></li>											
-												<li><a class="list" href="hombre/bermuda.html"><b>Bermudas</b></a></li>	
+												<li><a class="list" href="hombre/sudadera.php"><b>Pantalones</b></a></li>											
+												<li><a class="list" href="hombre/bermuda.php"><b>Bermudas</b></a></li>	
 											</ul>
 										</div>
 										<div class="col-sm-3 menu-grids">
@@ -196,8 +196,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="col-sm-4 menu-grids">
 											<ul class="multi-column-dropdown">
 												<h4>Zapatillas</h4>
-												<li><a class="list" href="zapatillas/zapatillaspc.html"><b>Correr</b></a></li>
-												<li><a class="list" href="zapatillas/zapatillassd.html"><b>Senderismo</b></a></li>
+												<li><a class="list" href="zapatillas/zapatillaspc.php"><b>Correr</b></a></li>
+												<li><a class="list" href="zapatillas/zapatillassd.php"><b>Senderismo</b></a></li>
 												
 											</ul>
 										</div>
@@ -220,10 +220,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<ul class="multi-column-dropdown">
 												<h4>Accesorios</h4>
 
-												<li><a class="list" href="productos/cuerdas.html"><b>Cuerdas</b></a></li>
-												<li><a class="list" href="productos/mancuernas.html"><b>Mancuernas</b></a></li>
-												<li><a class="list" href="productos/botellas.html"><b>Botellas</b></a></li>
-												<li><a class="list" href="productos/guantes.html"><b>Guantes</b></a></li>
+												<li><a class="list" href="productos/cuerdas.php"><b>Cuerdas</b></a></li>
+												<li><a class="list" href="productos/mancuernas.php"><b>Mancuernas</b></a></li>
+												<li><a class="list" href="productos/botellas.php"><b>Botellas</b></a></li>
+												<li><a class="list" href="productos/guantes.php"><b>Guantes</b></a></li>
 											</ul>
 										</div>
 										<div class="col-sm-8 menu-grids">
@@ -347,9 +347,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					 			<p><span class="item_price"><?php echo $row['Precio'] ?></span></p>
 								<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
 								<ul>
-									<li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-									<li><a class="item_add" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-									<li><a href="#"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></li>
+									<li><a href="products.php"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+									<li><a class="item_add" href="single.php"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
 								</ul>
 							</div>
 						</div>
@@ -370,110 +369,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Productos más vendidos</p>
 			</div>
 			<div class="gallery-info">
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
-					<a href="single.php" title="Informacion del producto"><img src="images/g1.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.php">Camisa under</a></h5>
-						<p><span class="item_price">$70.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.php" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
-					<a href="single.php" title="Informacion del producto"><img src="images/g2.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Pantaloneta NB</a></h5>
-						<p><span class="item_price">$85.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
-					<a href="single.html" title="Informacion del producto"><img src="images/g3.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Tenis NB</a></h5>
-						<p><span class="item_price">$299.999</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
-					<a href="single.html" title="Informacion del producto"><img src="images/g4.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Termo Adidas</a></h5>
-						<p><span class="item_price">$35.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay=".5s">
-					<a href="single.html" title="Informacion del producto"><img src="images/g5.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Tenis Nike </a></h5>
-						<p><span class="item_price">$310.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid1 wow flipInY animated" data-wow-delay=".7s">
-					<a href="single.html" title="Informacion del producto"><img src="images/g6.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Camisa Solar</a></h5>
-						<p><span class="item_price">$85.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid gallery-grid2 wow flipInY animated" data-wow-delay=".9s">
-					<a href="single.html" title="Informacion del producto"><img src="images/g7.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Licra Hombre</a></h5>
-						<p><span class="item_price">$65.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 gallery-grid wow flipInY animated" data-wow-delay="1.1s">
-					<a href="single.html" title="Informacion del producto"><img src="images/g8.png" class="img-responsive" alt=""/></a>
-					<div class="gallery-text simpleCart_shelfItem">
-						<h5><a class="name" href="single.html">Gorra Adidas</a></h5>
-						<p><span class="item_price">$65.000</span></p>
-						<h4 class="sizes">Sizes: <a href="#"> s</a> - <a href="#">m</a> - <a href="#">l</a> - <a href="#">xl</a> </h4>
-						<ul>
-							<li><a href="single.html" title="Informacion del producto"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
-							<li><a class="item_add" title="Añadir al carrito" href="#"><span class="glyphicon glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
-							
-						</ul>
-					</div>
-				</div>
+				
 				<div class="clearfix"></div>
 			</div>
 		</div>
