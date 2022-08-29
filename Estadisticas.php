@@ -570,7 +570,7 @@
                         <a href="#" class="dropdown-item">Añadir Nuevo Evento</a>
                         <a href="#" class="dropdown-item">Borrar Evento</a>
                         <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">View calendar</a>
+                        <a href="#" class="dropdown-item">Ver Calendario</a>
                       </div>
                     </div>
                     <button type="button" class="btn btn-success btn-sm" data-card-widget="collapse">
