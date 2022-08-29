@@ -59,7 +59,7 @@
                 <div class="inner">
                   <h3>44</h3>
 
-                  <p>User Inscripciones</p>
+                  <p>Inscripciones de usuario</p>
                 </div>
                 <div class="icon">
                   <i class="ion ion-person-add"></i>
