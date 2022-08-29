@@ -567,7 +567,7 @@
                         <i class="fas fa-bars"></i>
                       </button>
                       <div class="dropdown-menu" role="menu">
-                        <a href="#" class="dropdown-item">Add new event</a>
+                        <a href="#" class="dropdown-item">Añadir Nuevo Evento</a>
                         <a href="#" class="dropdown-item">Clear events</a>
                         <div class="dropdown-divider"></div>
                         <a href="#" class="dropdown-item">View calendar</a>
